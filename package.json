@@ -1,0 +1,44 @@
+{
+    "name": "pict-panel",
+    "version": "1.0.0",
+    "description": "Pict Control Panel",
+    "main": "source/Pict-Panel.js",
+    "scripts": {
+        "start": "node source/Pict-Panel.js",
+        "test": "npx mocha -u tdd -R spec",
+        "tests": "npx mocha -u tdd --exit -R spec --grep",
+        "coverage": "npx nyc --reporter=lcov --reporter=text-lcov npx mocha -- -u tdd -R spec",
+        "build": "npx quack build"
+    },
+    "author": "steven <steven@velozo.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "pict": "^1.0.201",
+        "pict-section-form": "^1.0.16",
+        "quackage": "^1.0.30"
+    },
+    "dependencies": {
+        "fable-serviceproviderbase": "^3.0.13",
+        "pict-provider": "^1.0.2",
+        "pict-template": "^1.0.2",
+        "pict-view": "^1.0.47"
+    },
+    "mocha": {
+        "diff": true,
+        "extension": [
+            "js"
+        ],
+        "package": "./package.json",
+        "reporter": "spec",
+        "slow": "75",
+        "timeout": "5000",
+        "ui": "tdd",
+        "watch-files": [
+            "source/**/*.js",
+            "test/**/*.js"
+        ],
+        "watch-ignore": [
+            "lib/vendor"
+        ]
+    }
+}
