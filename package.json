@@ -13,15 +13,15 @@
     "author": "steven <steven@velozo.com>",
     "license": "MIT",
     "devDependencies": {
-        "pict": "^1.0.201",
-        "pict-section-form": "^1.0.16",
-        "quackage": "^1.0.30"
+        "pict": "^1.0.234",
+        "pict-section-form": "^1.0.67",
+        "quackage": "^1.0.38"
     },
     "dependencies": {
-        "fable-serviceproviderbase": "^3.0.13",
-        "pict-provider": "^1.0.2",
-        "pict-template": "^1.0.2",
-        "pict-view": "^1.0.47"
+        "fable-serviceproviderbase": "^3.0.15",
+        "pict-provider": "^1.0.3",
+        "pict-template": "^1.0.10",
+        "pict-view": "^1.0.59"
     },
     "mocha": {
         "diff": true,

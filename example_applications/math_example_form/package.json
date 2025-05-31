@@ -1,29 +1,27 @@
 {
-    "name": "complex_tabular_application",
+    "name": "debug_application",
     "version": "1.0.0",
-    "description": "The most basic tabular application ever!",
-    "main": "Complex-Tabular-Application.js",
+    "description": "",
+    "main": "Application.js",
     "scripts": {
-        "start": "node Complex-Tabular-Application.js",
+        "start": "node Application.js",
+        "copymath": "cp ./MathExampleForm.json ./DefaultFormManifest.json",
         "build": "npx quack build && npx quack copy"
     },
     "author": "steven",
     "license": "MIT",
-    "devDependencies": {},
+    "devDependencies": {
+    },
     "copyFilesSettings": {
         "whenFileExists": "overwrite"
     },
     "copyFiles": [
         {
-            "from": "./html/*",
+            "from": "./index.html",
             "to": "./dist/"
         },
         {
             "from": "../../node_modules/pict/dist/*",
-            "to": "./dist/"
-        },
-        {
-            "from": "../../dist/*",
             "to": "./dist/"
         }
     ]

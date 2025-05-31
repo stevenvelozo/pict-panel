@@ -1,0 +1,1696 @@
+{
+    "Form": "MathExampleForm",
+    "Descriptors": {
+        "Header.FirstName": {
+            "Hash": "HeaderFirstName",
+            "Name": "First Name",
+            "DataAddress": "Header.FirstName",
+            "DataType": "String",
+            "PictForm": {
+                "Row": "1",
+                "Width": "3",
+                "Section": "Header",
+                "Group": "General_Info"
+            }
+        },
+        "Header.LastName": {
+            "Hash": "HeaderLastName",
+            "Name": "Last Name",
+            "DataAddress": "Header.LastName",
+            "DataType": "String",
+            "PictForm": {
+                "Row": "1",
+                "Width": "3",
+                "Section": "Header",
+                "Group": "General_Info"
+            }
+        },
+        "Header.JobTitle": {
+            "Hash": "JobTitle",
+            "Name": "Job Title",
+            "DataAddress": "Header.JobTitle",
+            "DataType": "String",
+            "PictForm": {
+                "Row": "1",
+                "Width": "6",
+                "Section": "Header",
+                "Group": "General_Info"
+            }
+        },
+        "Header.Description": {
+            "Hash": "Description",
+            "Name": "Description",
+            "DataAddress": "Header.Description",
+            "DataType": "String",
+            "PictForm": {
+                "Row": "2",
+                "Width": "12",
+                "Section": "Header",
+                "Group": "General_Info"
+            }
+        },
+        "Header.Planet": {
+            "Hash": "Planet",
+            "Name": "Planet",
+            "DataAddress": "Header.Planet",
+            "DataType": "String",
+            "PictForm": {
+                "InputType": "Option",
+                "Row": "3",
+                "Width": "6",
+                "Section": "Header",
+                "Group": "General_Info"
+            }
+        },
+        "Header.Universe": {
+            "Hash": "Universe",
+            "Name": "Universe",
+            "DataAddress": "Header.Universe",
+            "DataType": "String",
+            "PictForm": {
+                "InputType": "Option",
+                "Row": "3",
+                "Width": "6",
+                "Section": "Header",
+                "Group": "General_Info"
+            }
+        },
+        "BridgeData.IDBridge": {
+            "Hash": "CurrentIDBridge",
+            "Name": "IDBridge",
+            "DataAddress": "BridgeData.IDBridge",
+            "DataType": "Number",
+            "PictForm": {
+                "Row": "1",
+                "Width": "6",
+                "SpreadsheetNotes": "Bridge",
+                "Section": "Bridge",
+                "Group": "Bridge_Data"
+            }
+        },
+        "HelpContent.Math": {
+            "Hash": "MathHelpContent",
+            "Name": "So Very Magic",
+            "DataAddress": "HelpContent.Math",
+            "DataType": "String",
+            "PictForm": {
+                "InputType": "HTML",
+                "Row": "1",
+                "Width": "1",
+                "Section": "MatheMagic",
+                "Group": "Math_is_Magic"
+            },
+            "Content": "<h5> This is static HTML help </h5>\n\n<p>Math is like this hidden superpower that shapes everything around us—it's the secret language of the universe! From the way galaxies spin to the way we calculate our daily coffee expenses, math is the underlying thread that ties it all together. Whether you're working through an elegant proof or just figuring out how many slices of pizza you can afford, math is constantly revealing new patterns, connections, and solutions. It's mind-bending, creative, and endlessly fascinating! Every time you solve a tricky equation or discover a new formula, it feels like unlocking a new level of a game -- there's always something cool to uncover.</p>\n"
+        },
+        "Geometry.Rectangle.Width": {
+            "Hash": "RectangleWidth",
+            "Name": "Width",
+            "DataAddress": "Geometry.Rectangle.Width",
+            "DataType": "Number",
+            "PictForm": {
+                "Row": "1",
+                "Width": "6",
+                "Section": "Basic_Geometry",
+                "Group": "BasicGeoGrp"
+            },
+            "Default": "7.25"
+        },
+        "Geometry.Rectangle.Height": {
+            "Hash": "RectangleHeight",
+            "Name": "Height",
+            "DataAddress": "Geometry.Rectangle.Height",
+            "DataType": "Number",
+            "PictForm": {
+                "Row": "1",
+                "Width": "6",
+                "Section": "Basic_Geometry",
+                "Group": "BasicGeoGrp"
+            },
+            "Default": "10.3571"
+        },
+        "Geometry.Rectangle.Area": {
+            "Hash": "RectangleArea",
+            "Name": "Area",
+            "DataAddress": "Geometry.Rectangle.Area",
+            "DataType": "Number",
+            "PictForm": {
+                "Row": "2",
+                "Width": "3",
+                "Section": "Basic_Geometry",
+                "Group": "BasicGeoGrp"
+            }
+        },
+        "Geometry.Rectangle.AreaRoundedDefault": {
+            "Hash": "RectangleAreaRoundedDefault",
+            "Name": "Area Rounded",
+            "DataAddress": "Geometry.Rectangle.AreaRoundedDefault",
+            "DataType": "Number",
+            "PictForm": {
+                "Row": "2",
+                "Width": "3",
+                "Section": "Basic_Geometry",
+                "Group": "BasicGeoGrp"
+            }
+        },
+        "Geometry.Rectangle.AreaRoundedThree": {
+            "Hash": "RectangleAreaRoundedThree",
+            "Name": "Area Rounded 3",
+            "DataAddress": "Geometry.Rectangle.AreaRoundedThree",
+            "DataType": "Number",
+            "PictForm": {
+                "Row": "2",
+                "Width": "3",
+                "Section": "Basic_Geometry",
+                "Group": "BasicGeoGrp"
+            }
+        },
+        "Geometry.Rectangle.AreaRoundedFour": {
+            "Hash": "RectangleAreaRoundedFive",
+            "Name": "Area Rounded 5",
+            "DataAddress": "Geometry.Rectangle.AreaRoundedFour",
+            "DataType": "Number",
+            "PictForm": {
+                "Row": "2",
+                "Width": "3",
+                "Section": "Basic_Geometry",
+                "Group": "BasicGeoGrp"
+            }
+        },
+        "Geometry.Circle.Radius": {
+            "Hash": "CircleRadius",
+            "Name": "Radius",
+            "DataAddress": "Geometry.Circle.Radius",
+            "DataType": "Number",
+            "PictForm": {
+                "Row": "1",
+                "Width": "12",
+                "Section": "Basic_Geometry",
+                "Group": "Circle"
+            },
+            "Default": "85.523"
+        },
+        "Geometry.Circle.Area": {
+            "Hash": "CircleArea",
+            "Name": "Area",
+            "DataAddress": "Geometry.Circle.Area",
+            "DataType": "Number",
+            "PictForm": {
+                "Row": "2",
+                "Width": "3",
+                "Section": "Basic_Geometry",
+                "Group": "Circle"
+            }
+        },
+        "Geometry.Circle.AreaRoundedDefault": {
+            "Hash": "CircleAreaRoundedDefault",
+            "Name": "Area Rounded",
+            "DataAddress": "Geometry.Circle.AreaRoundedDefault",
+            "DataType": "Number",
+            "PictForm": {
+                "Row": "2",
+                "Width": "3",
+                "Section": "Basic_Geometry",
+                "Group": "Circle"
+            }
+        },
+        "Geometry.Circle.AreaRoundedThree": {
+            "Hash": "CircleAreaRoundedFour",
+            "Name": "Area Rounded 4",
+            "DataAddress": "Geometry.Circle.AreaRoundedThree",
+            "DataType": "Number",
+            "PictForm": {
+                "Row": "2",
+                "Width": "3",
+                "Section": "Basic_Geometry",
+                "Group": "Circle"
+            }
+        },
+        "Geometry.Circle.AreaRoundedFour": {
+            "Hash": "CircleAreaRoundedSix",
+            "Name": "Area Rounded 6",
+            "DataAddress": "Geometry.Circle.AreaRoundedFour",
+            "DataType": "Number",
+            "PictForm": {
+                "Row": "2",
+                "Width": "3",
+                "Section": "Basic_Geometry",
+                "Group": "Circle"
+            }
+        },
+        "Boxes": {
+            "Hash": "Boxes",
+            "Name": "Boxes",
+            "DataAddress": "Boxes",
+            "DataType": "Array"
+        },
+        "Boxes[].Floorspace": {
+            "Hash": "BoxesFloorspaceSet",
+            "Name": "BoxesFloorspaceSet",
+            "DataAddress": "Boxes[].Floorspace",
+            "DataType": "Number"
+        },
+        "Boxes[].Volume": {
+            "Hash": "BoxesVolumeSet",
+            "Name": "BoxesVolumeSet",
+            "DataAddress": "Boxes[].Volume",
+            "DataType": "Number"
+        },
+        "Boxes[].Depth": {
+            "Hash": "BoxesDepthSet",
+            "Name": "BoxesDepthSet",
+            "DataAddress": "Boxes[].Depth",
+            "DataType": "Number"
+        },
+        "BoxAggregate.Count": {
+            "Hash": "BoxesCount",
+            "Name": "Box Count",
+            "DataAddress": "BoxAggregate.Count",
+            "DataType": "Number",
+            "PictForm": {
+                "Row": "1",
+                "Width": "12",
+                "Section": "Box_Summary_Data",
+                "Group": "Box_Summary_Data"
+            }
+        },
+        "BoxAggregate.AverageFloorspace": {
+            "Hash": "BoxesAverageFloorspace",
+            "Name": "Average Floorspace",
+            "DataAddress": "BoxAggregate.AverageFloorspace",
+            "DataType": "Number",
+            "PictForm": {
+                "Row": "2",
+                "Width": "6",
+                "Section": "Box_Summary_Data",
+                "Group": "Box_Summary_Data"
+            }
+        },
+        "BoxAggregate.TotalFloorspace": {
+            "Hash": "BoxesTotalFloorspace",
+            "Name": "Total Floorspace",
+            "DataAddress": "BoxAggregate.TotalFloorspace",
+            "DataType": "Number",
+            "PictForm": {
+                "Row": "2",
+                "Width": "6",
+                "Section": "Box_Summary_Data",
+                "Group": "Box_Summary_Data"
+            }
+        },
+        "BoxAggregate.AverageVolume": {
+            "Hash": "BoxesAverageVolume",
+            "Name": "Average Volume",
+            "DataAddress": "BoxAggregate.AverageVolume",
+            "DataType": "Number",
+            "PictForm": {
+                "Row": "3",
+                "Width": "4",
+                "Section": "Box_Summary_Data",
+                "Group": "Box_Summary_Data"
+            }
+        },
+        "BoxAggregate.TotalVolume": {
+            "Hash": "BoxesTotalVolume",
+            "Name": "Total Volume",
+            "DataAddress": "BoxAggregate.TotalVolume",
+            "DataType": "Number",
+            "PictForm": {
+                "Row": "3",
+                "Width": "4",
+                "Section": "Box_Summary_Data",
+                "Group": "Box_Summary_Data"
+            }
+        },
+        "BoxAggregate.TotalVolumeRounded": {
+            "Hash": "BoxesTotalVolumeRounded",
+            "Name": "Total Volume Rounded",
+            "DataAddress": "BoxAggregate.TotalVolumeRounded",
+            "DataType": "Number",
+            "PictForm": {
+                "Row": "3",
+                "Width": "4",
+                "Section": "Box_Summary_Data",
+                "Group": "Box_Summary_Data"
+            }
+        },
+        "BoxAggregate.MinDepth": {
+            "Hash": "BoxesMinDepth",
+            "Name": "Minimum Depth",
+            "DataAddress": "BoxAggregate.MinDepth",
+            "DataType": "Number",
+            "PictForm": {
+                "Row": "4",
+                "Width": "3",
+                "Section": "Box_Summary_Data",
+                "Group": "Box_Summary_Data"
+            }
+        },
+        "BoxAggregate.MeanDepth": {
+            "Hash": "BoxesMeanDepth",
+            "Name": "Mean Depth",
+            "DataAddress": "BoxAggregate.MeanDepth",
+            "DataType": "Number",
+            "PictForm": {
+                "Row": "4",
+                "Width": "3",
+                "Section": "Box_Summary_Data",
+                "Group": "Box_Summary_Data"
+            }
+        },
+        "BoxAggregate.MedianDepth": {
+            "Hash": "BoxesMedianDepth",
+            "Name": "Median Depth",
+            "DataAddress": "BoxAggregate.MedianDepth",
+            "DataType": "Number",
+            "PictForm": {
+                "Row": "4",
+                "Width": "3",
+                "Section": "Box_Summary_Data",
+                "Group": "Box_Summary_Data"
+            }
+        },
+        "BoxAggregate.MaxDepth": {
+            "Hash": "BoxesMaxDepth",
+            "Name": "Max Depth",
+            "DataAddress": "BoxAggregate.MaxDepth",
+            "DataType": "Number",
+            "PictForm": {
+                "Row": "4",
+                "Width": "3",
+                "Section": "Box_Summary_Data",
+                "Group": "Box_Summary_Data"
+            }
+        },
+        "HelpContent.Cuboid": {
+            "Hash": "CuboidHelpContent",
+            "Name": "How to Cuboid Math",
+            "DataAddress": "HelpContent.Cuboid",
+            "DataType": "String",
+            "PictForm": {
+                "InputType": "Markdown",
+                "Row": "1",
+                "Width": "1",
+                "Section": "Rectangular_Area_Help",
+                "Group": "Rectangular_Area_Help"
+            },
+            "Content": "# Computing the Area of a 3-Dimensional Rectangle (Cuboid)\n\nIn three-dimensional space, a \"rectangle\" is typically referred to as a **cuboid**. A cuboid is a 3D shape with six rectangular faces, and to find the area (more precisely, the surface area) of a cuboid, we need to calculate the areas of each face and sum them up.\n\n## Step-by-Step Explanation\n\n### 1. **Understanding the Shape**\n\nA cuboid has three dimensions:\n- **Length (l)**: the longest side.\n- **Width (w)**: the side perpendicular to the length.\n- **Height (h)**: the vertical side.\n\nThese three dimensions define the size of the cuboid.\n\n### 2. **Area of a Rectangle**\n\nThe **area of a rectangle** is calculated using the formula:\n\n\\[\n\\text{Area} = \\text{Length} \\times \\text{Width}\n\\]\n\nThis formula gives the area of one rectangular face of the cuboid.\n\n### 3. **Surface Area of the Cuboid**\n\nThe **surface area** of a cuboid is the total area of all six rectangular faces. A cuboid has three distinct pairs of opposite faces:\n- Two faces with area \\( l \\times w \\)\n- Two faces with area \\( l \\times h \\)\n- Two faces with area \\( w \\times h \\)\n\nThe total surface area \\( A \\) is the sum of the areas of all six faces:\n\n\\[\nA = 2(lw + lh + wh)\n\\]\n\nHere:\n- \\( 2(lw) \\) is for the two faces with length and width.\n- \\( 2(lh) \\) is for the two faces with length and height.\n- \\( 2(wh) \\) is for the two faces with width and height.\n\n### 4. **Final Formula for Surface Area**\n\nThe formula to compute the surface area \\( A \\) of a cuboid is:\n\n\\[\nA = 2(lw + lh + wh)\n\\]\n\nThis formula gives the total area of all six faces of the cuboid.\n\n## Example\n\nLet’s say we have a cuboid with:\n- Length \\( l = 4 \\) units\n- Width \\( w = 3 \\) units\n- Height \\( h = 5 \\) units\n\nWe can plug these values into the formula for surface area:\n\n\\[\nA = 2(4 \\times 3 + 4 \\times 5 + 3 \\times 5)\n\\]\n\n\\[\nA = 2(12 + 20 + 15) = 2 \\times 47 = 94 \\text{ square units}\n\\]\n\nSo, the surface area of this cuboid is 94 square units.\n\n---\n\n## Key Concepts\n\n- **Rectangle Area**: The area of a flat, two-dimensional shape with four right angles. It is calculated by multiplying the length and the width.\n  \n- **Surface Area**: The total area of all the faces of a 3D object. For a cuboid, it’s the sum of the areas of the six rectangular faces.\n  \n- **Dimensions**: These are the three measurements (length, width, height) that define the size of the cuboid.\n\nBy using simple multiplication and addition, you can easily compute the surface area of any cuboid."
+        },
+        "ComplexEquation.PR": {
+            "Hash": "CePR",
+            "Name": "PR",
+            "DataAddress": "ComplexEquation.PR",
+            "DataType": "Number",
+            "PictForm": {
+                "Row": "1",
+                "Width": "4",
+                "Section": "Complex_Equation",
+                "Group": "Complex_Equation"
+            },
+            "Default": "4.5"
+        },
+        "ComplexEquation.Z": {
+            "Hash": "CeZ",
+            "Name": "Z",
+            "DataAddress": "ComplexEquation.Z",
+            "DataType": "Number",
+            "PictForm": {
+                "Row": "1",
+                "Width": "4",
+                "Section": "Complex_Equation",
+                "Group": "Complex_Equation"
+            },
+            "Default": "1.5"
+        },
+        "ComplexEquation.C": {
+            "Hash": "CeC",
+            "Name": "C",
+            "DataAddress": "ComplexEquation.C",
+            "DataType": "Number",
+            "PictForm": {
+                "Row": "1",
+                "Width": "4",
+                "Section": "Complex_Equation",
+                "Group": "Complex_Equation"
+            },
+            "Default": "8.75"
+        },
+        "ComplexEquation.Result": {
+            "Hash": "CeResult",
+            "Name": "(160 * PR * Z) / (C / 100) * PR * Z + (160 * (1 - C / 100))",
+            "DataAddress": "ComplexEquation.Result",
+            "DataType": "Number",
+            "PictForm": {
+                "Row": "2",
+                "Width": "6",
+                "Section": "Complex_Equation",
+                "Group": "Complex_Equation"
+            }
+        },
+        "ComplexEquation.ResultRounded": {
+            "Hash": "CeResultRounded",
+            "Name": "Rounded 3",
+            "DataAddress": "ComplexEquation.ResultRounded",
+            "DataType": "Number",
+            "PictForm": {
+                "Row": "2",
+                "Width": "6",
+                "Section": "Complex_Equation",
+                "Group": "Complex_Equation"
+            }
+        },
+        "Rectangle": {
+            "Hash": "Rectangles",
+            "Name": "Rectangles",
+            "DataAddress": "Rectangle",
+            "DataType": "Array"
+        },
+        "Cylinders": {
+            "Hash": "Cylinders",
+            "Name": "Cylinders",
+            "DataAddress": "Cylinders",
+            "DataType": "Array"
+        },
+        "Listopia.Filters.Colour": {
+            "Hash": "ColourFilter",
+            "Name": "Color Filter",
+            "DataAddress": "Listopia.Filters.Colour",
+            "DataType": "String",
+            "PictForm": {
+                "Row": "1",
+                "Width": "1",
+                "Section": "Listopia",
+                "Group": "OcclusionLists"
+            }
+        },
+        "Listopia.Color": {
+            "Hash": "Colors",
+            "Name": "Color",
+            "DataAddress": "Listopia.Color",
+            "DataType": "String",
+            "PictForm": {
+                "InputType": "Option",
+                "Row": "2",
+                "Width": "1",
+                "Section": "Listopia",
+                "Group": "OcclusionLists",
+                "SelectOptions": [
+                    {
+                        "id": "Red",
+                        "text": "The Deepest Red"
+                    },
+                    {
+                        "id": "Green",
+                        "text": "A Challenging Green"
+                    },
+                    {
+                        "id": "Blue",
+                        "text": "Corporate Blue"
+                    },
+                    {
+                        "id": "Orange",
+                        "text": "Almost Brown Orange"
+                    },
+                    {
+                        "id": "Yellow",
+                        "text": "Not a Weak Bellied Yellow"
+                    },
+                    {
+                        "id": "Other",
+                        "text": "Other"
+                    }
+                ],
+                "Providers": [
+                    "Pict-Input-AutofillTriggerGroup"
+                ],
+                "AutofillTriggerGroup": [
+                    {
+                        "TriggerGroup": "AutoTriggerGroup-FruitSelection-Colors.csv",
+                        "TriggerAllInputs": true,
+                        "SelectOptionsRefresh": true
+                    }
+                ],
+                "ListFilterRules": [
+                    {
+                        "Filter": "AutoTriggerGroup-FruitSelection-Colors.csv List Distilling Filter",
+                        "FilterType": "CrossMap",
+                        "JoinListAddressGlobal": true,
+                        "IgnoreEmpty": true,
+                        "JoinListValueAddress": "GUIDColors",
+                        "ExternalValueAddress": "GUIDFruitSelection",
+                        "JoinListAddress": "View.sectionDefinition.Intersections.Colors.FruitSelectionColorsJoin",
+                        "FilterToValueAddress": "FruitSelection"
+                    }
+                ]
+            }
+        },
+        "Listopia.Box": {
+            "Hash": "BoxSelection",
+            "Name": "Box",
+            "DataAddress": "Listopia.Box",
+            "DataType": "String",
+            "PictForm": {
+                "InputType": "Option",
+                "Row": "2",
+                "Width": "1",
+                "Providers": [
+                    "Pict-Input-AutofillTriggerGroup"
+                ],
+                "AutofillTriggerGroup": {
+                    "TriggerGroup": "Box",
+                    "MarshalEmptyValues": false,
+                    "SelectOptionsRefresh": true
+                },
+                "Section": "Listopia",
+                "Group": "OcclusionLists",
+                "SelectOptionsPickList": "OPTION_Listopia_BoxSelection"
+            }
+        },
+        "Listopia.Fruit": {
+            "Hash": "FruitSelection",
+            "Name": "Fruit",
+            "DataAddress": "Listopia.Fruit",
+            "DataType": "String",
+            "PictForm": {
+                "InputType": "Option",
+                "Row": "3",
+                "Width": "1",
+                "Section": "Listopia",
+                "Group": "OcclusionLists",
+                "SelectOptions": [
+                    {
+                        "id": "Apple",
+                        "text": "The Apple"
+                    },
+                    {
+                        "id": "Kiwi",
+                        "text": "Kiwi"
+                    },
+                    {
+                        "id": "Tangerine",
+                        "text": "A Soft Tangerine"
+                    },
+                    {
+                        "id": "Orange",
+                        "text": "Orange Crush"
+                    },
+                    {
+                        "id": "Watermelon",
+                        "text": "The Wateriest Melon"
+                    },
+                    {
+                        "id": "Tomato",
+                        "text": "An Heirloom of Rapid Descent"
+                    }
+                ],
+                "Providers": [
+                    "Pict-Input-AutofillTriggerGroup"
+                ],
+                "AutofillTriggerGroup": [
+                    {
+                        "TriggerGroup": "AutoTriggerGroup-FruitSelection-Colors.csv",
+                        "TriggerAllInputs": true,
+                        "SelectOptionsRefresh": true
+                    },
+                    {
+                        "TriggerGroup": "AutoTriggerGroup-FruitSelection-Stones.csv",
+                        "TriggerAllInputs": true,
+                        "SelectOptionsRefresh": true
+                    }
+                ],
+                "ListFilterRules": [
+                    {
+                        "Filter": "AutoTriggerGroup-FruitSelection-Colors.csv List Distilling Filter",
+                        "FilterType": "CrossMap",
+                        "JoinListAddressGlobal": true,
+                        "IgnoreEmpty": true,
+                        "JoinListValueAddress": "GUIDFruitSelection",
+                        "ExternalValueAddress": "GUIDColors",
+                        "JoinListAddress": "View.sectionDefinition.Intersections.FruitSelection.FruitSelectionColorsJoin",
+                        "FilterToValueAddress": "Colors"
+                    },
+                    {
+                        "Filter": "AutoTriggerGroup-FruitSelection-Stones.csv List Distilling Filter",
+                        "FilterType": "CrossMap",
+                        "JoinListAddressGlobal": true,
+                        "IgnoreEmpty": true,
+                        "JoinListValueAddress": "GUIDFruitSelection",
+                        "ExternalValueAddress": "GUIDStones",
+                        "JoinListAddress": "View.sectionDefinition.Intersections.FruitSelection.FruitSelectionStonesJoin",
+                        "FilterToValueAddress": "Stones"
+                    }
+                ]
+            }
+        },
+        "Listopia.Stone": {
+            "Hash": "Stones",
+            "Name": "Stone",
+            "DataAddress": "Listopia.Stone",
+            "DataType": "String",
+            "PictForm": {
+                "InputType": "Option",
+                "Row": "3",
+                "Width": "1",
+                "Section": "Listopia",
+                "Group": "OcclusionLists",
+                "SelectOptions": [
+                    {
+                        "id": "Small",
+                        "text": "The Small Type Seed"
+                    },
+                    {
+                        "id": "Large",
+                        "text": "A Very Big Seed"
+                    },
+                    {
+                        "id": "None",
+                        "text": "No Seeds to Speak Of"
+                    }
+                ],
+                "Providers": [
+                    "Pict-Input-AutofillTriggerGroup"
+                ],
+                "AutofillTriggerGroup": [
+                    {
+                        "TriggerGroup": "AutoTriggerGroup-FruitSelection-Stones.csv",
+                        "TriggerAllInputs": true,
+                        "SelectOptionsRefresh": true
+                    }
+                ],
+                "ListFilterRules": [
+                    {
+                        "Filter": "AutoTriggerGroup-FruitSelection-Stones.csv List Distilling Filter",
+                        "FilterType": "CrossMap",
+                        "JoinListAddressGlobal": true,
+                        "IgnoreEmpty": true,
+                        "JoinListValueAddress": "GUIDStones",
+                        "ExternalValueAddress": "GUIDFruitSelection",
+                        "JoinListAddress": "View.sectionDefinition.Intersections.Stones.FruitSelectionStonesJoin",
+                        "FilterToValueAddress": "FruitSelection"
+                    }
+                ]
+            }
+        }
+    },
+    "Sections": [
+        {
+            "Name": "Header",
+            "Hash": "Header",
+            "Solvers": [],
+            "Groups": [
+                {
+                    "Name": "General Info",
+                    "Hash": "General_Info",
+                    "Rows": [],
+                    "RecordSetSolvers": []
+                }
+            ]
+        },
+        {
+            "Name": "Bridge",
+            "Hash": "Bridge",
+            "Solvers": [],
+            "Groups": [
+                {
+                    "Name": "Bridge Data",
+                    "Hash": "Bridge_Data",
+                    "Rows": [],
+                    "RecordSetSolvers": []
+                }
+            ]
+        },
+        {
+            "Name": "MatheMagic",
+            "Hash": "MatheMagic",
+            "Solvers": [],
+            "Groups": [
+                {
+                    "Name": "Math is Magic",
+                    "Hash": "Math_is_Magic",
+                    "Rows": [],
+                    "RecordSetSolvers": []
+                }
+            ]
+        },
+        {
+            "Name": "Basic Geometry",
+            "Hash": "Basic_Geometry",
+            "Solvers": [
+                "RectangleArea = RectangleWidth * RectangleHeight",
+                "RectangleAreaRoundedDefault = ROUND(RectangleWidth * RectangleHeight)",
+                "RectangleAreaRoundedThree = ROUND((RectangleWidth * RectangleHeight), 3)",
+                "RectangleAreaRoundedFive = ROUND(RectangleArea, 5)",
+                "CircleArea = PI() * CircleRadius^2",
+                "CircleAreaRoundedDefault = ROUND(PI() * CircleRadius^2)",
+                "CircleAreaRoundedFour = ROUND(CircleArea,4)",
+                "CircleAreaRoundedSix = ROUND(PI() * CircleRadius^2,6)"
+            ],
+            "Groups": [
+                {
+                    "Name": "Rectangle",
+                    "Hash": "BasicGeoGrp",
+                    "Rows": [],
+                    "RecordSetSolvers": []
+                },
+                {
+                    "Name": "Circle",
+                    "Hash": "Circle",
+                    "Rows": [],
+                    "RecordSetSolvers": []
+                }
+            ]
+        },
+        {
+            "Name": "Box Collection",
+            "Hash": "BoxCollSec",
+            "Solvers": [],
+            "Groups": [
+                {
+                    "Name": "Boxes",
+                    "Hash": "BoxCollGrp",
+                    "Rows": [],
+                    "RecordSetSolvers": [
+                        "BoxFloorspace = BoxWidth * BoxDepth",
+                        "BoxVolume = BoxFloorspace * BoxHeight"
+                    ],
+                    "MinimumRowCount": 3,
+                    "MaximumRowCount": 10,
+                    "ShowTitle": true,
+                    "Layout": "Tabular",
+                    "RecordSetAddress": "Boxes",
+                    "RecordManifest": "BoxCollectionData"
+                }
+            ]
+        },
+        {
+            "Name": "Box Summary Data",
+            "Hash": "Box_Summary_Data",
+            "Solvers": [
+                "BoxesCount = COUNT(BoxesFloorspaceSet)",
+                "BoxesAverageFloorspace = AVG(BoxesFloorspaceSet)",
+                "BoxesTotalFloorspace = SUM(BoxesFloorspaceSet)",
+                "BoxesAverageVolume = AVG(BoxesVolumeSet)",
+                "BoxesTotalVolume = COUNT(BoxesVolumeSet)",
+                "BoxesTotalVolumeRounded = ROUND(SUM(BoxesVolumeSet))",
+                "BoxesMinDepth = MIN(BoxesDepthSet)",
+                "BoxesMeanDepth = MEAN(BoxesDepthSet)",
+                "BoxesMedianDepth = MEDIAN(BoxesDepthSet)",
+                "BoxesMaxDepth = MAX(BoxesDepthSet)"
+            ],
+            "Groups": [
+                {
+                    "Name": "Box Summary Data",
+                    "Hash": "Box_Summary_Data",
+                    "Rows": [],
+                    "RecordSetSolvers": []
+                }
+            ]
+        },
+        {
+            "Name": "Rectangular Area Help",
+            "Hash": "Rectangular_Area_Help",
+            "Solvers": [],
+            "Groups": [
+                {
+                    "Name": "Rectangular Area Help",
+                    "Hash": "Rectangular_Area_Help",
+                    "Rows": [],
+                    "RecordSetSolvers": []
+                }
+            ]
+        },
+        {
+            "Name": "Complex Equation",
+            "Hash": "Complex_Equation",
+            "Solvers": [
+                "CeResult = (160 * CePR * CeZ) / (CeC / 100) * CePR * CeZ + (160 * (1 - CeC / 100))",
+                "CeResultRounded = ROUND(CeResult,3)"
+            ],
+            "Groups": [
+                {
+                    "Name": "Complex Equation",
+                    "Hash": "Complex_Equation",
+                    "Rows": [],
+                    "RecordSetSolvers": [],
+                    "Layout": "Vertical"
+                }
+            ]
+        },
+        {
+            "Name": "Rectangle Aggregation",
+            "Hash": "Rectangle_Aggregation",
+            "Solvers": [],
+            "Groups": [
+                {
+                    "Name": "Rectangle Set",
+                    "Hash": "Rectangle_Set",
+                    "Rows": [],
+                    "RecordSetSolvers": [
+                        "RectangleArea = RectangleWidth + RectangleHeight"
+                    ],
+                    "MinimumRowCount": 20,
+                    "ShowTitle": false,
+                    "Layout": "Tabular",
+                    "RecordSetAddress": "Rectangle",
+                    "RecordManifest": "Rectangles",
+                    "DefaultRows": [
+                        {
+                            "Identifier": "A",
+                            "Width": "1",
+                            "Height": "1",
+                            "Depth": "1",
+                            "ExtraData": ""
+                        },
+                        {
+                            "Identifier": "B",
+                            "Width": "1",
+                            "Height": "1",
+                            "Depth": "1",
+                            "ExtraData": ""
+                        },
+                        {
+                            "Identifier": "C",
+                            "Width": "1",
+                            "Height": "1",
+                            "Depth": "1",
+                            "ExtraData": ""
+                        },
+                        {
+                            "Identifier": "D",
+                            "Width": "1",
+                            "Height": "1",
+                            "Depth": "1",
+                            "ExtraData": ""
+                        },
+                        {
+                            "Identifier": "E",
+                            "Width": "1",
+                            "Height": "1",
+                            "Depth": "1",
+                            "ExtraData": ""
+                        },
+                        {
+                            "Identifier": "F",
+                            "Width": "1",
+                            "Height": "1",
+                            "Depth": "1",
+                            "ExtraData": ""
+                        },
+                        {
+                            "Identifier": "G",
+                            "Width": "1",
+                            "Height": "1",
+                            "Depth": "1",
+                            "ExtraData": ""
+                        },
+                        {
+                            "Identifier": "H",
+                            "Width": "1",
+                            "Height": "1",
+                            "Depth": "1",
+                            "ExtraData": ""
+                        },
+                        {
+                            "Identifier": "I",
+                            "Width": "1",
+                            "Height": "1",
+                            "Depth": "1",
+                            "ExtraData": ""
+                        },
+                        {
+                            "Identifier": "J",
+                            "Width": "1",
+                            "Height": "1",
+                            "Depth": "1",
+                            "ExtraData": ""
+                        },
+                        {
+                            "Identifier": "K",
+                            "Width": "1",
+                            "Height": "1",
+                            "Depth": "1",
+                            "ExtraData": "This is not in the manifest but is loaded by the tooling."
+                        },
+                        {
+                            "Identifier": "L",
+                            "Width": "1",
+                            "Height": "1",
+                            "Depth": "1",
+                            "ExtraData": ""
+                        },
+                        {
+                            "Identifier": "M",
+                            "Width": "1",
+                            "Height": "1",
+                            "Depth": "1",
+                            "ExtraData": ""
+                        },
+                        {
+                            "Identifier": "N",
+                            "Width": "1",
+                            "Height": "1",
+                            "Depth": "1",
+                            "ExtraData": ""
+                        },
+                        {
+                            "Identifier": "O",
+                            "Width": "1",
+                            "Height": "1",
+                            "Depth": "1",
+                            "ExtraData": ""
+                        },
+                        {
+                            "Identifier": "P",
+                            "Width": "1",
+                            "Height": "1",
+                            "Depth": "1",
+                            "ExtraData": ""
+                        },
+                        {
+                            "Identifier": "Q",
+                            "Width": "1",
+                            "Height": "1",
+                            "Depth": "1",
+                            "ExtraData": ""
+                        },
+                        {
+                            "Identifier": "Really?",
+                            "Width": "1",
+                            "Height": "1",
+                            "Depth": "1",
+                            "ExtraData": ""
+                        },
+                        {
+                            "Identifier": "S",
+                            "Width": "1",
+                            "Height": "1",
+                            "Depth": "1",
+                            "ExtraData": ""
+                        },
+                        {
+                            "Identifier": "T",
+                            "Width": "1",
+                            "Height": "1",
+                            "Depth": "1",
+                            "ExtraData": ""
+                        },
+                        {
+                            "Identifier": "U",
+                            "Width": "1",
+                            "Height": "1",
+                            "Depth": "1",
+                            "ExtraData": ""
+                        },
+                        {
+                            "Identifier": "V",
+                            "Width": "1",
+                            "Height": "1",
+                            "Depth": "1",
+                            "ExtraData": ""
+                        },
+                        {
+                            "Identifier": "WTF",
+                            "Width": "1",
+                            "Height": "1",
+                            "Depth": "1",
+                            "ExtraData": ""
+                        },
+                        {
+                            "Identifier": "X",
+                            "Width": "1",
+                            "Height": "1",
+                            "Depth": "1",
+                            "ExtraData": ""
+                        },
+                        {
+                            "Identifier": "Y",
+                            "Width": "1",
+                            "Height": "1",
+                            "Depth": "1",
+                            "ExtraData": ""
+                        },
+                        {
+                            "Identifier": "Z",
+                            "Width": "1",
+                            "Height": "1",
+                            "Depth": "1",
+                            "ExtraData": ""
+                        },
+                        {
+                            "Identifier": "TOO MANY",
+                            "Width": "1",
+                            "Height": "1",
+                            "Depth": "1",
+                            "ExtraData": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Cylinders",
+            "Hash": "Cylinders",
+            "Solvers": [],
+            "Groups": [
+                {
+                    "Name": "Cylinders",
+                    "Hash": "Cylinders",
+                    "Rows": [],
+                    "RecordSetSolvers": [
+                        "Circumference = 2 * PI() * Radius",
+                        "Area = (2 * PI() * Radius * Height) + (2 * PI() * Radius ^2)"
+                    ],
+                    "ShowTitle": false,
+                    "Layout": "Tabular",
+                    "RecordSetAddress": "Cylinders",
+                    "RecordManifest": "Cylinders"
+                }
+            ]
+        },
+        {
+            "Name": "List Topia",
+            "Hash": "Listopia",
+            "Solvers": [],
+            "Groups": [
+                {
+                    "Name": "Occlusion Lists",
+                    "Hash": "OcclusionLists",
+                    "Rows": [],
+                    "RecordSetSolvers": []
+                }
+            ],
+            "PickLists": [
+                {
+                    "DefaultListData": [
+                        {
+                            "id": "Red",
+                            "text": "The Deepest Red"
+                        },
+                        {
+                            "id": "Green",
+                            "text": "A Challenging Green"
+                        },
+                        {
+                            "id": "Blue",
+                            "text": "Corporate Blue"
+                        },
+                        {
+                            "id": "Orange",
+                            "text": "Almost Brown Orange"
+                        },
+                        {
+                            "id": "Yellow",
+                            "text": "Not a Weak Bellied Yellow"
+                        },
+                        {
+                            "id": "Other",
+                            "text": "Other"
+                        }
+                    ],
+                    "Hash": "OPTION_Listopia_Colors",
+                    "ListAddress": "AppData.OPTION_Listopia_Colors_LIST",
+                    "ListSourceAddress": "OPTION_Listopia_Colors_SOURCE",
+                    "ExplicitSourceAddress": false,
+                    "TextTemplate": "{~Data:text~}",
+                    "IDTemplate": "{~Data:id~}",
+                    "Unique": false,
+                    "Sorted": false,
+                    "UpdateFrequency": "Always"
+                },
+                {
+                    "DefaultListData": [],
+                    "Hash": "OPTION_Listopia_BoxSelection",
+                    "ListAddress": "AppData.OPTION_Listopia_BoxSelection_LIST",
+                    "ListSourceAddress": "Boxes",
+                    "ExplicitSourceAddress": true,
+                    "TextTemplate": "{~D:Record.Identifier~} (width {~D:Record.Width~})",
+                    "IDTemplate": "{~D:Record.Identifier~}",
+                    "Unique": false,
+                    "Sorted": false,
+                    "UpdateFrequency": "Always"
+                },
+                {
+                    "DefaultListData": [
+                        {
+                            "id": "Apple",
+                            "text": "The Apple"
+                        },
+                        {
+                            "id": "Kiwi",
+                            "text": "Kiwi"
+                        },
+                        {
+                            "id": "Tangerine",
+                            "text": "A Soft Tangerine"
+                        },
+                        {
+                            "id": "Orange",
+                            "text": "Orange Crush"
+                        },
+                        {
+                            "id": "Watermelon",
+                            "text": "The Wateriest Melon"
+                        },
+                        {
+                            "id": "Tomato",
+                            "text": "An Heirloom of Rapid Descent"
+                        }
+                    ],
+                    "Hash": "OPTION_Listopia_FruitSelection",
+                    "ListAddress": "AppData.OPTION_Listopia_FruitSelection_LIST",
+                    "ListSourceAddress": "OPTION_Listopia_FruitSelection_SOURCE",
+                    "ExplicitSourceAddress": false,
+                    "TextTemplate": "{~Data:text~}",
+                    "IDTemplate": "{~Data:id~}",
+                    "Unique": false,
+                    "Sorted": false,
+                    "UpdateFrequency": "Always"
+                },
+                {
+                    "DefaultListData": [
+                        {
+                            "id": "Small",
+                            "text": "The Small Type Seed"
+                        },
+                        {
+                            "id": "Large",
+                            "text": "A Very Big Seed"
+                        },
+                        {
+                            "id": "None",
+                            "text": "No Seeds to Speak Of"
+                        }
+                    ],
+                    "Hash": "OPTION_Listopia_Stones",
+                    "ListAddress": "AppData.OPTION_Listopia_Stones_LIST",
+                    "ListSourceAddress": "OPTION_Listopia_Stones_SOURCE",
+                    "ExplicitSourceAddress": false,
+                    "TextTemplate": "{~Data:text~}",
+                    "IDTemplate": "{~Data:id~}",
+                    "Unique": false,
+                    "Sorted": false,
+                    "UpdateFrequency": "Always"
+                }
+            ],
+            "Intersections": {
+                "FruitSelection": {
+                    "FruitSelectionColorsJoin": {
+                        "L-Apple-T-Red": {
+                            "GUIDFruitSelectionColorsJoin": "L-Apple-T-Red",
+                            "GUIDFruitSelection": "Apple",
+                            "GUIDColors": "Red"
+                        },
+                        "L-Apple-T-Green": {
+                            "GUIDFruitSelectionColorsJoin": "L-Apple-T-Green",
+                            "GUIDFruitSelection": "Apple",
+                            "GUIDColors": "Green"
+                        },
+                        "L-Apple-T-Yellow": {
+                            "GUIDFruitSelectionColorsJoin": "L-Apple-T-Yellow",
+                            "GUIDFruitSelection": "Apple",
+                            "GUIDColors": "Yellow"
+                        },
+                        "L-Apple-T-Other": {
+                            "GUIDFruitSelectionColorsJoin": "L-Apple-T-Other",
+                            "GUIDFruitSelection": "Apple",
+                            "GUIDColors": "Other"
+                        },
+                        "L-Kiwi-T-Green": {
+                            "GUIDFruitSelectionColorsJoin": "L-Kiwi-T-Green",
+                            "GUIDFruitSelection": "Kiwi",
+                            "GUIDColors": "Green"
+                        },
+                        "L-Tangerine-T-Orange": {
+                            "GUIDFruitSelectionColorsJoin": "L-Tangerine-T-Orange",
+                            "GUIDFruitSelection": "Tangerine",
+                            "GUIDColors": "Orange"
+                        },
+                        "L-Tangerine-T-Yellow": {
+                            "GUIDFruitSelectionColorsJoin": "L-Tangerine-T-Yellow",
+                            "GUIDFruitSelection": "Tangerine",
+                            "GUIDColors": "Yellow"
+                        },
+                        "L-Orange-T-Orange": {
+                            "GUIDFruitSelectionColorsJoin": "L-Orange-T-Orange",
+                            "GUIDFruitSelection": "Orange",
+                            "GUIDColors": "Orange"
+                        },
+                        "L-Watermelon-T-Green": {
+                            "GUIDFruitSelectionColorsJoin": "L-Watermelon-T-Green",
+                            "GUIDFruitSelection": "Watermelon",
+                            "GUIDColors": "Green"
+                        },
+                        "L-Watermelon-T-Blue": {
+                            "GUIDFruitSelectionColorsJoin": "L-Watermelon-T-Blue",
+                            "GUIDFruitSelection": "Watermelon",
+                            "GUIDColors": "Blue"
+                        },
+                        "L-Tomato-T-Red": {
+                            "GUIDFruitSelectionColorsJoin": "L-Tomato-T-Red",
+                            "GUIDFruitSelection": "Tomato",
+                            "GUIDColors": "Red"
+                        },
+                        "L-Tomato-T-Green": {
+                            "GUIDFruitSelectionColorsJoin": "L-Tomato-T-Green",
+                            "GUIDFruitSelection": "Tomato",
+                            "GUIDColors": "Green"
+                        },
+                        "L-Tomato-T-Blue": {
+                            "GUIDFruitSelectionColorsJoin": "L-Tomato-T-Blue",
+                            "GUIDFruitSelection": "Tomato",
+                            "GUIDColors": "Blue"
+                        },
+                        "L-Tomato-T-Orange": {
+                            "GUIDFruitSelectionColorsJoin": "L-Tomato-T-Orange",
+                            "GUIDFruitSelection": "Tomato",
+                            "GUIDColors": "Orange"
+                        },
+                        "L-Tomato-T-Yellow": {
+                            "GUIDFruitSelectionColorsJoin": "L-Tomato-T-Yellow",
+                            "GUIDFruitSelection": "Tomato",
+                            "GUIDColors": "Yellow"
+                        },
+                        "L-Tomato-T-Other": {
+                            "GUIDFruitSelectionColorsJoin": "L-Tomato-T-Other",
+                            "GUIDFruitSelection": "Tomato",
+                            "GUIDColors": "Other"
+                        }
+                    },
+                    "FruitSelectionStonesJoin": {
+                        "L-Apple-T-None": {
+                            "GUIDFruitSelectionStonesJoin": "L-Apple-T-None",
+                            "GUIDFruitSelection": "Apple",
+                            "GUIDStones": "None"
+                        },
+                        "L-Kiwi-T-None": {
+                            "GUIDFruitSelectionStonesJoin": "L-Kiwi-T-None",
+                            "GUIDFruitSelection": "Kiwi",
+                            "GUIDStones": "None"
+                        },
+                        "L-Tangerine-T-Small": {
+                            "GUIDFruitSelectionStonesJoin": "L-Tangerine-T-Small",
+                            "GUIDFruitSelection": "Tangerine",
+                            "GUIDStones": "Small"
+                        },
+                        "L-Tangerine-T-None": {
+                            "GUIDFruitSelectionStonesJoin": "L-Tangerine-T-None",
+                            "GUIDFruitSelection": "Tangerine",
+                            "GUIDStones": "None"
+                        },
+                        "L-Orange-T-Small": {
+                            "GUIDFruitSelectionStonesJoin": "L-Orange-T-Small",
+                            "GUIDFruitSelection": "Orange",
+                            "GUIDStones": "Small"
+                        },
+                        "L-Orange-T-None": {
+                            "GUIDFruitSelectionStonesJoin": "L-Orange-T-None",
+                            "GUIDFruitSelection": "Orange",
+                            "GUIDStones": "None"
+                        },
+                        "L-Watermelon-T-None": {
+                            "GUIDFruitSelectionStonesJoin": "L-Watermelon-T-None",
+                            "GUIDFruitSelection": "Watermelon",
+                            "GUIDStones": "None"
+                        },
+                        "L-Tomato-T-None": {
+                            "GUIDFruitSelectionStonesJoin": "L-Tomato-T-None",
+                            "GUIDFruitSelection": "Tomato",
+                            "GUIDStones": "None"
+                        },
+                        "L-Peach-T-Large": {
+                            "GUIDFruitSelectionStonesJoin": "L-Peach-T-Large",
+                            "GUIDFruitSelection": "Peach",
+                            "GUIDStones": "Large"
+                        }
+                    }
+                },
+                "Colors": {
+                    "FruitSelectionColorsJoin": {
+                        "L-Apple-T-Red": {
+                            "GUIDFruitSelectionColorsJoin": "L-Apple-T-Red",
+                            "GUIDFruitSelection": "Apple",
+                            "GUIDColors": "Red"
+                        },
+                        "L-Apple-T-Green": {
+                            "GUIDFruitSelectionColorsJoin": "L-Apple-T-Green",
+                            "GUIDFruitSelection": "Apple",
+                            "GUIDColors": "Green"
+                        },
+                        "L-Apple-T-Yellow": {
+                            "GUIDFruitSelectionColorsJoin": "L-Apple-T-Yellow",
+                            "GUIDFruitSelection": "Apple",
+                            "GUIDColors": "Yellow"
+                        },
+                        "L-Apple-T-Other": {
+                            "GUIDFruitSelectionColorsJoin": "L-Apple-T-Other",
+                            "GUIDFruitSelection": "Apple",
+                            "GUIDColors": "Other"
+                        },
+                        "L-Kiwi-T-Green": {
+                            "GUIDFruitSelectionColorsJoin": "L-Kiwi-T-Green",
+                            "GUIDFruitSelection": "Kiwi",
+                            "GUIDColors": "Green"
+                        },
+                        "L-Tangerine-T-Orange": {
+                            "GUIDFruitSelectionColorsJoin": "L-Tangerine-T-Orange",
+                            "GUIDFruitSelection": "Tangerine",
+                            "GUIDColors": "Orange"
+                        },
+                        "L-Tangerine-T-Yellow": {
+                            "GUIDFruitSelectionColorsJoin": "L-Tangerine-T-Yellow",
+                            "GUIDFruitSelection": "Tangerine",
+                            "GUIDColors": "Yellow"
+                        },
+                        "L-Orange-T-Orange": {
+                            "GUIDFruitSelectionColorsJoin": "L-Orange-T-Orange",
+                            "GUIDFruitSelection": "Orange",
+                            "GUIDColors": "Orange"
+                        },
+                        "L-Watermelon-T-Green": {
+                            "GUIDFruitSelectionColorsJoin": "L-Watermelon-T-Green",
+                            "GUIDFruitSelection": "Watermelon",
+                            "GUIDColors": "Green"
+                        },
+                        "L-Watermelon-T-Blue": {
+                            "GUIDFruitSelectionColorsJoin": "L-Watermelon-T-Blue",
+                            "GUIDFruitSelection": "Watermelon",
+                            "GUIDColors": "Blue"
+                        },
+                        "L-Tomato-T-Red": {
+                            "GUIDFruitSelectionColorsJoin": "L-Tomato-T-Red",
+                            "GUIDFruitSelection": "Tomato",
+                            "GUIDColors": "Red"
+                        },
+                        "L-Tomato-T-Green": {
+                            "GUIDFruitSelectionColorsJoin": "L-Tomato-T-Green",
+                            "GUIDFruitSelection": "Tomato",
+                            "GUIDColors": "Green"
+                        },
+                        "L-Tomato-T-Blue": {
+                            "GUIDFruitSelectionColorsJoin": "L-Tomato-T-Blue",
+                            "GUIDFruitSelection": "Tomato",
+                            "GUIDColors": "Blue"
+                        },
+                        "L-Tomato-T-Orange": {
+                            "GUIDFruitSelectionColorsJoin": "L-Tomato-T-Orange",
+                            "GUIDFruitSelection": "Tomato",
+                            "GUIDColors": "Orange"
+                        },
+                        "L-Tomato-T-Yellow": {
+                            "GUIDFruitSelectionColorsJoin": "L-Tomato-T-Yellow",
+                            "GUIDFruitSelection": "Tomato",
+                            "GUIDColors": "Yellow"
+                        },
+                        "L-Tomato-T-Other": {
+                            "GUIDFruitSelectionColorsJoin": "L-Tomato-T-Other",
+                            "GUIDFruitSelection": "Tomato",
+                            "GUIDColors": "Other"
+                        }
+                    }
+                },
+                "Stones": {
+                    "FruitSelectionStonesJoin": {
+                        "L-Apple-T-None": {
+                            "GUIDFruitSelectionStonesJoin": "L-Apple-T-None",
+                            "GUIDFruitSelection": "Apple",
+                            "GUIDStones": "None"
+                        },
+                        "L-Kiwi-T-None": {
+                            "GUIDFruitSelectionStonesJoin": "L-Kiwi-T-None",
+                            "GUIDFruitSelection": "Kiwi",
+                            "GUIDStones": "None"
+                        },
+                        "L-Tangerine-T-Small": {
+                            "GUIDFruitSelectionStonesJoin": "L-Tangerine-T-Small",
+                            "GUIDFruitSelection": "Tangerine",
+                            "GUIDStones": "Small"
+                        },
+                        "L-Tangerine-T-None": {
+                            "GUIDFruitSelectionStonesJoin": "L-Tangerine-T-None",
+                            "GUIDFruitSelection": "Tangerine",
+                            "GUIDStones": "None"
+                        },
+                        "L-Orange-T-Small": {
+                            "GUIDFruitSelectionStonesJoin": "L-Orange-T-Small",
+                            "GUIDFruitSelection": "Orange",
+                            "GUIDStones": "Small"
+                        },
+                        "L-Orange-T-None": {
+                            "GUIDFruitSelectionStonesJoin": "L-Orange-T-None",
+                            "GUIDFruitSelection": "Orange",
+                            "GUIDStones": "None"
+                        },
+                        "L-Watermelon-T-None": {
+                            "GUIDFruitSelectionStonesJoin": "L-Watermelon-T-None",
+                            "GUIDFruitSelection": "Watermelon",
+                            "GUIDStones": "None"
+                        },
+                        "L-Tomato-T-None": {
+                            "GUIDFruitSelectionStonesJoin": "L-Tomato-T-None",
+                            "GUIDFruitSelection": "Tomato",
+                            "GUIDStones": "None"
+                        },
+                        "L-Peach-T-Large": {
+                            "GUIDFruitSelectionStonesJoin": "L-Peach-T-Large",
+                            "GUIDFruitSelection": "Peach",
+                            "GUIDStones": "Large"
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "ReferenceManifests": {
+        "BoxCollectionData": {
+            "Scope": "BoxCollectionData",
+            "Descriptors": {
+                "Identifier": {
+                    "Hash": "BoxIdentifier",
+                    "Name": "Identifier",
+                    "DataAddress": "Identifier",
+                    "DataType": "String",
+                    "PictForm": {
+                        "Row": "1",
+                        "Width": "1",
+                        "Providers": [
+                            "Pict-Input-AutofillTriggerGroup"
+                        ],
+                        "AutofillTriggerGroup": {
+                            "TriggerGroup": "Box",
+                            "MarshalEmptyValues": false,
+                            "TriggerAllInputs": true
+                        },
+                        "Section": "BoxCollSec",
+                        "Group": "BoxCollGrp"
+                    },
+                    "IsTabular": true
+                },
+                "Width": {
+                    "Hash": "BoxWidth",
+                    "Name": "Width",
+                    "DataAddress": "Width",
+                    "DataType": "Number",
+                    "PictForm": {
+                        "Row": "1",
+                        "Width": "1",
+                        "Section": "BoxCollSec",
+                        "Group": "BoxCollGrp"
+                    },
+                    "IsTabular": true
+                },
+                "Height": {
+                    "Hash": "BoxHeight",
+                    "Name": "Height",
+                    "DataAddress": "Height",
+                    "DataType": "Number",
+                    "PictForm": {
+                        "Row": "1",
+                        "Width": "1",
+                        "Section": "BoxCollSec",
+                        "Group": "BoxCollGrp"
+                    },
+                    "IsTabular": true
+                },
+                "Depth": {
+                    "Hash": "BoxDepth",
+                    "Name": "Depth",
+                    "DataAddress": "Depth",
+                    "DataType": "Number",
+                    "PictForm": {
+                        "Row": "1",
+                        "Width": "1",
+                        "Section": "BoxCollSec",
+                        "Group": "BoxCollGrp"
+                    },
+                    "IsTabular": true
+                },
+                "Floorspace": {
+                    "Hash": "BoxFloorspace",
+                    "Name": "Floorspace",
+                    "DataAddress": "Floorspace",
+                    "DataType": "Number",
+                    "PictForm": {
+                        "Row": "1",
+                        "Width": "1",
+                        "Section": "BoxCollSec",
+                        "Group": "BoxCollGrp"
+                    },
+                    "IsTabular": true
+                },
+                "Volume": {
+                    "Hash": "BoxVolume",
+                    "Name": "Volume",
+                    "DataAddress": "Volume",
+                    "DataType": "Number",
+                    "PictForm": {
+                        "Row": "1",
+                        "Width": "1",
+                        "Providers": [
+                            "Pict-Input-AutofillTriggerGroup"
+                        ],
+                        "AutofillTriggerGroup": {
+                            "TriggerGroup": "Box",
+                            "MarshalEmptyValues": false,
+                            "TriggerAllInputs": true
+                        },
+                        "Section": "BoxCollSec",
+                        "Group": "BoxCollGrp"
+                    },
+                    "IsTabular": true
+                }
+            },
+            "Sections": [],
+            "ReferenceManifests": {}
+        },
+        "Rectangles": {
+            "Scope": "Rectangles",
+            "Descriptors": {
+                "Identifier": {
+                    "Hash": "RectangleIdentifier",
+                    "Name": "Identifier",
+                    "DataAddress": "Identifier",
+                    "DataType": "String",
+                    "PictForm": {
+                        "Row": "1",
+                        "Width": "1",
+                        "Section": "Rectangle_Aggregation",
+                        "Group": "Rectangle_Set"
+                    },
+                    "IsTabular": true
+                },
+                "Width": {
+                    "Hash": "RectangleWidth",
+                    "Name": "Width",
+                    "DataAddress": "Width",
+                    "DataType": "Number",
+                    "PictForm": {
+                        "Row": "1",
+                        "Width": "1",
+                        "Section": "Rectangle_Aggregation",
+                        "Group": "Rectangle_Set"
+                    },
+                    "IsTabular": true
+                },
+                "Height": {
+                    "Hash": "RectangleHeight",
+                    "Name": "Height",
+                    "DataAddress": "Height",
+                    "DataType": "Number",
+                    "PictForm": {
+                        "Row": "1",
+                        "Width": "1",
+                        "Section": "Rectangle_Aggregation",
+                        "Group": "Rectangle_Set"
+                    },
+                    "IsTabular": true
+                },
+                "Area": {
+                    "Hash": "RectangleArea",
+                    "Name": "Area",
+                    "DataAddress": "Area",
+                    "DataType": "Number",
+                    "PictForm": {
+                        "Row": "1",
+                        "Width": "1",
+                        "Section": "Rectangle_Aggregation",
+                        "Group": "Rectangle_Set"
+                    },
+                    "IsTabular": true
+                }
+            },
+            "Sections": [],
+            "ReferenceManifests": {}
+        },
+        "Cylinders": {
+            "Scope": "Cylinders",
+            "Descriptors": {
+                "Identifier": {
+                    "Hash": "Identifier",
+                    "Name": "Identifier",
+                    "DataAddress": "Identifier",
+                    "DataType": "String",
+                    "PictForm": {
+                        "Row": "1",
+                        "Width": "1",
+                        "Section": "Cylinders",
+                        "Group": "Cylinders"
+                    },
+                    "IsTabular": true
+                },
+                "Radius": {
+                    "Hash": "Radius",
+                    "Name": "Radius",
+                    "DataAddress": "Radius",
+                    "DataType": "PreciseNumber",
+                    "PictForm": {
+                        "Row": "1",
+                        "Width": "1",
+                        "Section": "Cylinders",
+                        "Group": "Cylinders"
+                    },
+                    "IsTabular": true
+                },
+                "Height": {
+                    "Hash": "Height",
+                    "Name": "Height",
+                    "DataAddress": "Height",
+                    "DataType": "PreciseNumber",
+                    "PictForm": {
+                        "Row": "1",
+                        "Width": "1",
+                        "Section": "Cylinders",
+                        "Group": "Cylinders"
+                    },
+                    "IsTabular": true
+                },
+                "Circumference": {
+                    "Hash": "Circumference",
+                    "Name": "Circumference",
+                    "DataAddress": "Circumference",
+                    "DataType": "PreciseNumber",
+                    "PictForm": {
+                        "Row": "1",
+                        "Width": "1",
+                        "Section": "Cylinders",
+                        "Group": "Cylinders"
+                    },
+                    "IsTabular": true
+                },
+                "Area": {
+                    "Hash": "Area",
+                    "Name": "Area",
+                    "DataAddress": "Area",
+                    "DataType": "PreciseNumber",
+                    "PictForm": {
+                        "Row": "1",
+                        "Width": "1",
+                        "Section": "Cylinders",
+                        "Group": "Cylinders"
+                    },
+                    "IsTabular": true
+                }
+            },
+            "Sections": [],
+            "ReferenceManifests": {}
+        }
+    }
+}
