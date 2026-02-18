@@ -2,7 +2,6 @@
 .gulpfile-quackage-config.json
 .gulpfile-quackage.js
 .package.json.quackage.bak
-dist
 
 package-lock.json
 
