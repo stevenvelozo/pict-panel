@@ -14,14 +14,23 @@ module.exports = { CSS: /*CSS*/`
 	max-width: 98%;
 
 	width: 300px;
-	
-	overflow: auto;
+
+	overflow: hidden;
 	resize: both;
+
+	display: flex;
+	flex-direction: column;
 
 	color: var(--win-fg);
 	background: var(--win-bg);
 	border: 3px double var(--win-border);
 	border-radius: 5px;
+}
+
+.pp_content {
+	flex: 1;
+	overflow: auto;
+	min-height: 0;
 }
 
 #Pict-Panel.pp_no_resize {
@@ -57,7 +66,11 @@ module.exports = { CSS: /*CSS*/`
 }
 
 #Pict-Panel.pp_tab_mode .pp_hd_logo {
-	cursor: pointer;
+	cursor: grab;
+}
+
+#Pict-Panel.pp_tab_mode .pp_hd_logo:active {
+	cursor: grabbing;
 }
 
 #Pict-Panel.pp_tab_mode .pp_hd_logo svg {
@@ -174,11 +187,32 @@ module.exports = { CSS: /*CSS*/`
 .pp_nav a {
 	color: var(--pal-acc);
 	text-decoration: none;
-	font-weight: bold;
 }
 
 .pp_nav a:hover {
 	color: var(--pal-acc-bri);
+}
+
+.pp_nav_short {
+	font-weight: 800;
+	letter-spacing: -0.5px;
+	text-transform: uppercase;
+	font-style: normal;
+}
+
+.pp_nav_long {
+	font-weight: 400;
+	font-style: normal;
+	display: none;
+}
+
+.pp_nav_active .pp_nav_short {
+	display: none;
+}
+
+.pp_nav_active .pp_nav_long {
+	display: inline;
+	opacity: 0.6;
 }
 
 `};

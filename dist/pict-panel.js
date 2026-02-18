@@ -2012,7 +2012,7 @@ function _toPrimitive(t, r) { if ("object" != typeof t || !t) return t; var e = 
     }, {}],
     13: [function (require, module, exports) {
       module.exports = {
-        CSS: /*CSS*/"\n\n/* Panel Styling */\n\n#Pict-Panel {\n\tz-index: 900;\n\tposition: fixed;\n\ttop: 15px;\n\tright: 15px;\n\n\tmin-height: 24px;\n\tmax-height: 98%;\n\tmin-width: 300px;\n\tmax-width: 98%;\n\n\twidth: 300px;\n\t\n\toverflow: auto;\n\tresize: both;\n\n\tcolor: var(--win-fg);\n\tbackground: var(--win-bg);\n\tborder: 3px double var(--win-border);\n\tborder-radius: 5px;\n}\n\n#Pict-Panel.pp_no_resize {\n\tresize: none;\n}\n\n/* Tab mode: collapse to just the logo */\n#Pict-Panel.pp_tab_mode {\n\ttop: -3px;\n\tright: 60px;\n\tleft: auto;\n\twidth: auto;\n\tmin-width: 0;\n\tmax-width: none;\n\theight: auto;\n\tmin-height: 0;\n\tmax-height: none;\n\tresize: none;\n\toverflow: visible;\n\tpadding: 0;\n}\n\n#Pict-Panel.pp_tab_mode .pp_hd {\n\tdisplay: block;\n\tpadding: 2px;\n}\n\n#Pict-Panel.pp_tab_mode .pp_hd_pict,\n#Pict-Panel.pp_tab_mode .pp_hd_control,\n#Pict-Panel.pp_tab_mode .pp_nav,\n#Pict-Panel.pp_tab_mode .pp_content {\n\tdisplay: none !important;\n}\n\n#Pict-Panel.pp_tab_mode .pp_hd_logo {\n\tcursor: pointer;\n}\n\n#Pict-Panel.pp_tab_mode .pp_hd_logo svg {\n\twidth: 36px;\n\theight: 36px;\n\tdisplay: block;\n}\n\n#Pict-Panel-Drag {\n\tz-index: 910;\n\tcursor: move;\n}\n\n.pp_hd {\n\tdisplay: grid;\n\tgrid-template-columns: 70px 1fr 70px;\n\tgrid-template-areas: \"logo title controls\";\n\talign-content: stretch;\n\n\tpadding: 4px;\n\tfill: var(--hd-bg);\n}\n\n.pp_hd_logo {\n\tgrid-area: logo;\n}\n\n.pp_hd_pict {\n\tgrid-area: title;\n\tfont-family: Verdana;\n\tfont-size: 48px;\n\tfont-weight: bold;\n\tcolor: --hd-logotext;\n\tuser-select: none;\n}\n\n.pp_hd_control {\n\tgrid-area: controls;\n\tjustify-self: end;\n}\n\n\n/* UI size/etc. toggle Controls */\n.pp_sz_con {\n\tdisplay: grid;\n\tgrid-template-columns: 20px 20px 20px;\n\tgrid-template-rows: 20px 20px 20px;\n\talign-content: stretch;\n\n\ttext-align: right;\n}\n\n.pp_sz_con > div {\n\tbackground-color: var(--hd-sz-con);\n\tborder-color: var(--hd-sz-con-border);\n\tborder-style: dotted;\n\tcursor: pointer;\n\tdisplay: flex;\n\talign-items: center;\n\tjustify-content: center;\n\toverflow: hidden;\n}\n\n.pp_sz_con > div:hover {\n\tbackground-color: var(--hd-sz-con-hover);\n\tborder-color: var(--hd-sz-con-border-hover);\n\tborder-style: solid;\n}\n\n.pp_sz_con svg\n{\n\twidth: 16px;\n\theight: 16px;\n\tcolor: var(--pal-pri);\n\tfill: var(--pal-pri);\n}\n\n.pp_sz_con > div:hover svg\n{\n\tcolor: var(--pal-acc-bri);\n\tfill: var(--pal-acc-bri);\n}\n\n/* Toggle icon visibility: unchecked shows .off, checked shows .on */\n.pp_sz_con .checked .off,\n.pp_sz_con .checked .hover_on\n{\n\tdisplay: none !important;\n}\n.pp_sz_con .unchecked .on,\n.pp_sz_con .unchecked .hover_off\n{\n\tdisplay: none !important;\n}\n.pp_sz_con .checked .on,\n.pp_sz_con .checked .hover_off\n{\n\tdisplay: inline-flex !important;\n}\n.pp_sz_con .unchecked .off,\n.pp_sz_con .unchecked .hover_on\n{\n\tdisplay: inline-flex !important;\n}\n\n/* Navigation */\n.pp_nav {\n\tpadding: 2px 8px;\n\tborder-bottom: 1px solid var(--pal-acc);\n\tfont-family: Courier, monospace;\n\tfont-size: 0.8rem;\n}\n\n.pp_nav a {\n\tcolor: var(--pal-acc);\n\ttext-decoration: none;\n\tfont-weight: bold;\n}\n\n.pp_nav a:hover {\n\tcolor: var(--pal-acc-bri);\n}\n\n"
+        CSS: /*CSS*/"\n\n/* Panel Styling */\n\n#Pict-Panel {\n\tz-index: 900;\n\tposition: fixed;\n\ttop: 15px;\n\tright: 15px;\n\n\tmin-height: 24px;\n\tmax-height: 98%;\n\tmin-width: 300px;\n\tmax-width: 98%;\n\n\twidth: 300px;\n\n\toverflow: hidden;\n\tresize: both;\n\n\tdisplay: flex;\n\tflex-direction: column;\n\n\tcolor: var(--win-fg);\n\tbackground: var(--win-bg);\n\tborder: 3px double var(--win-border);\n\tborder-radius: 5px;\n}\n\n.pp_content {\n\tflex: 1;\n\toverflow: auto;\n\tmin-height: 0;\n}\n\n#Pict-Panel.pp_no_resize {\n\tresize: none;\n}\n\n/* Tab mode: collapse to just the logo */\n#Pict-Panel.pp_tab_mode {\n\ttop: -3px;\n\tright: 60px;\n\tleft: auto;\n\twidth: auto;\n\tmin-width: 0;\n\tmax-width: none;\n\theight: auto;\n\tmin-height: 0;\n\tmax-height: none;\n\tresize: none;\n\toverflow: visible;\n\tpadding: 0;\n}\n\n#Pict-Panel.pp_tab_mode .pp_hd {\n\tdisplay: block;\n\tpadding: 2px;\n}\n\n#Pict-Panel.pp_tab_mode .pp_hd_pict,\n#Pict-Panel.pp_tab_mode .pp_hd_control,\n#Pict-Panel.pp_tab_mode .pp_nav,\n#Pict-Panel.pp_tab_mode .pp_content {\n\tdisplay: none !important;\n}\n\n#Pict-Panel.pp_tab_mode .pp_hd_logo {\n\tcursor: grab;\n}\n\n#Pict-Panel.pp_tab_mode .pp_hd_logo:active {\n\tcursor: grabbing;\n}\n\n#Pict-Panel.pp_tab_mode .pp_hd_logo svg {\n\twidth: 36px;\n\theight: 36px;\n\tdisplay: block;\n}\n\n#Pict-Panel-Drag {\n\tz-index: 910;\n\tcursor: move;\n}\n\n.pp_hd {\n\tdisplay: grid;\n\tgrid-template-columns: 70px 1fr 70px;\n\tgrid-template-areas: \"logo title controls\";\n\talign-content: stretch;\n\n\tpadding: 4px;\n\tfill: var(--hd-bg);\n}\n\n.pp_hd_logo {\n\tgrid-area: logo;\n}\n\n.pp_hd_pict {\n\tgrid-area: title;\n\tfont-family: Verdana;\n\tfont-size: 48px;\n\tfont-weight: bold;\n\tcolor: --hd-logotext;\n\tuser-select: none;\n}\n\n.pp_hd_control {\n\tgrid-area: controls;\n\tjustify-self: end;\n}\n\n\n/* UI size/etc. toggle Controls */\n.pp_sz_con {\n\tdisplay: grid;\n\tgrid-template-columns: 20px 20px 20px;\n\tgrid-template-rows: 20px 20px 20px;\n\talign-content: stretch;\n\n\ttext-align: right;\n}\n\n.pp_sz_con > div {\n\tbackground-color: var(--hd-sz-con);\n\tborder-color: var(--hd-sz-con-border);\n\tborder-style: dotted;\n\tcursor: pointer;\n\tdisplay: flex;\n\talign-items: center;\n\tjustify-content: center;\n\toverflow: hidden;\n}\n\n.pp_sz_con > div:hover {\n\tbackground-color: var(--hd-sz-con-hover);\n\tborder-color: var(--hd-sz-con-border-hover);\n\tborder-style: solid;\n}\n\n.pp_sz_con svg\n{\n\twidth: 16px;\n\theight: 16px;\n\tcolor: var(--pal-pri);\n\tfill: var(--pal-pri);\n}\n\n.pp_sz_con > div:hover svg\n{\n\tcolor: var(--pal-acc-bri);\n\tfill: var(--pal-acc-bri);\n}\n\n/* Toggle icon visibility: unchecked shows .off, checked shows .on */\n.pp_sz_con .checked .off,\n.pp_sz_con .checked .hover_on\n{\n\tdisplay: none !important;\n}\n.pp_sz_con .unchecked .on,\n.pp_sz_con .unchecked .hover_off\n{\n\tdisplay: none !important;\n}\n.pp_sz_con .checked .on,\n.pp_sz_con .checked .hover_off\n{\n\tdisplay: inline-flex !important;\n}\n.pp_sz_con .unchecked .off,\n.pp_sz_con .unchecked .hover_on\n{\n\tdisplay: inline-flex !important;\n}\n\n/* Navigation */\n.pp_nav {\n\tpadding: 2px 8px;\n\tborder-bottom: 1px solid var(--pal-acc);\n\tfont-family: Courier, monospace;\n\tfont-size: 0.8rem;\n}\n\n.pp_nav a {\n\tcolor: var(--pal-acc);\n\ttext-decoration: none;\n}\n\n.pp_nav a:hover {\n\tcolor: var(--pal-acc-bri);\n}\n\n.pp_nav_short {\n\tfont-weight: 800;\n\tletter-spacing: -0.5px;\n\ttext-transform: uppercase;\n\tfont-style: normal;\n}\n\n.pp_nav_long {\n\tfont-weight: 400;\n\tfont-style: normal;\n\tdisplay: none;\n}\n\n.pp_nav_active .pp_nav_short {\n\tdisplay: none;\n}\n\n.pp_nav_active .pp_nav_long {\n\tdisplay: inline;\n\topacity: 0.6;\n}\n\n"
       };
     }, {}],
     14: [function (require, module, exports) {
@@ -2037,7 +2037,7 @@ function _toPrimitive(t, r) { if ("object" != typeof t || !t) return t; var e = 
     }, {}],
     18: [function (require, module, exports) {
       module.exports = {
-        HTML: /*html*/"\n\n<div>\n\t<span><a href=\"#\" onclick=\"_Pict.providers['PP-Router'].navigateTo('PP-ADB');\">A</a>ppData</span>\n\t<span><a href=\"#\" onclick=\"_Pict.providers['PP-Router'].navigateTo('PP-TB');\">T</a>emplates</span>\n\t<span><a href=\"#\" onclick=\"_Pict.providers['PP-Router'].navigateTo('PP-VB');\">V</a>iews</span>\n\t<span><a href=\"#\" onclick=\"_Pict.providers['PP-Router'].navigateTo('PP-PB');\">P</a>roviders</span>\n\t<span><a href=\"#\" onclick=\"_Pict.providers['PP-Router'].navigateTo('PP-TO');\">O</a>verrides</span>\n</div>\n\n"
+        HTML: /*html*/"\n\n<div>\n\t<span data-nav=\"PP-ADB\"><a href=\"#\" onclick=\"_Pict.providers['PP-Router'].navigateTo('PP-ADB');\"><b class=\"pp_nav_short\">Ad</b><em class=\"pp_nav_long\">AppData</em></a></span>\n\t<span data-nav=\"PP-TB\"><a href=\"#\" onclick=\"_Pict.providers['PP-Router'].navigateTo('PP-TB');\"><b class=\"pp_nav_short\">Tp</b><em class=\"pp_nav_long\">Templates</em></a></span>\n\t<span data-nav=\"PP-VB\"><a href=\"#\" onclick=\"_Pict.providers['PP-Router'].navigateTo('PP-VB');\"><b class=\"pp_nav_short\">Vw</b><em class=\"pp_nav_long\">Views</em></a></span>\n\t<span data-nav=\"PP-PB\"><a href=\"#\" onclick=\"_Pict.providers['PP-Router'].navigateTo('PP-PB');\"><b class=\"pp_nav_short\">Pr</b><em class=\"pp_nav_long\">Providers</em></a></span>\n\t<span data-nav=\"PP-TO\"><a href=\"#\" onclick=\"_Pict.providers['PP-Router'].navigateTo('PP-TO');\"><b class=\"pp_nav_short\">Ov</b><em class=\"pp_nav_long\">Overrides</em></a></span>\n</div>\n\n"
       };
     }, {}],
     19: [function (require, module, exports) {
@@ -2264,6 +2264,16 @@ function _toPrimitive(t, r) { if ("object" != typeof t || !t) return t; var e = 
           if (pViewHash in this.pict.views) {
             this.activeView = pViewHash;
             this.pict.views[pViewHash].render();
+
+            // Update the active nav highlight
+            let tmpNavItems = document.querySelectorAll('#Pict-Panel .pp_nav span[data-nav]');
+            for (let i = 0; i < tmpNavItems.length; i++) {
+              if (tmpNavItems[i].getAttribute('data-nav') === pViewHash) {
+                tmpNavItems[i].classList.add('pp_nav_active');
+              } else {
+                tmpNavItems[i].classList.remove('pp_nav_active');
+              }
+            }
 
             // Persist the active view selection
             if (this.pict.providers['PP-ConfigStorage'] && this.pict.views['PP-Main']) {
@@ -2703,15 +2713,19 @@ function _toPrimitive(t, r) { if ("object" != typeof t || !t) return t; var e = 
            * --> Happy trails.
            */
           function (pEvent) {
-            // In tab mode, clicking the logo expands the panel
-            if (__View.uiState.Behaviors.tab_mode) {
-              __View.toggleUIBehavior('tab_mode');
-              return;
-            }
+            pEvent.preventDefault();
             let tmpOffsetX = pEvent.offsetX + tmpPanelDragElement.clientLeft;
             let tmpOffsetY = pEvent.offsetY + tmpPanelDragElement.clientTop;
             function dragHandler(pEvent) {
+              pEvent.preventDefault();
               pEvent.stopPropagation();
+              if (__View.uiState.Behaviors.tab_mode) {
+                // In tab mode, only allow horizontal drag along the top
+                // Must set right to 'auto' to override the CSS class rule
+                tmpPanelElement.style.right = 'auto';
+                tmpPanelElement.style.left = pEvent.clientX - tmpOffsetX + 'px';
+                return;
+              }
               if (__View.uiState.Behaviors.lock_position) return;
               if (!__View.uiState.Behaviors.pin_right) {
                 tmpPanelElement.style.right = '';
@@ -2736,9 +2750,12 @@ function _toPrimitive(t, r) { if ("object" != typeof t || !t) return t; var e = 
            * END of browser event code block
            * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
-          // .addEventListener("dblclick",
-          // 
-
+          // Double-click on drag handle expands panel from tab mode
+          tmpPanelDragElement.addEventListener('dblclick', function (pEvent) {
+            if (__View.uiState.Behaviors.tab_mode) {
+              __View.toggleUIBehavior('tab_mode');
+            }
+          });
           let tmpUIBehaviorIcons = this.pict.ContentAssignment.getElement('#Pict-Panel .pp_sz_con div');
           for (let i = 0; i < tmpUIBehaviorIcons.length; i++) {
             /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *

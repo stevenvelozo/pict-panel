@@ -333,18 +333,22 @@ class PictPanelMain extends libPictView
 			 */
 			function (pEvent)
 			{
-				// In tab mode, clicking the logo expands the panel
-				if (__View.uiState.Behaviors.tab_mode)
-				{
-					__View.toggleUIBehavior('tab_mode');
-					return;
-				}
-
+				pEvent.preventDefault();
 				let tmpOffsetX = pEvent.offsetX + tmpPanelDragElement.clientLeft;
 				let tmpOffsetY = pEvent.offsetY + tmpPanelDragElement.clientTop;
 				function dragHandler(pEvent)
 				{
+					pEvent.preventDefault();
 					pEvent.stopPropagation();
+
+					if (__View.uiState.Behaviors.tab_mode)
+					{
+						// In tab mode, only allow horizontal drag along the top
+						// Must set right to 'auto' to override the CSS class rule
+						tmpPanelElement.style.right = 'auto';
+						tmpPanelElement.style.left = (pEvent.clientX - tmpOffsetX) + 'px';
+						return;
+					}
 
 					if (__View.uiState.Behaviors.lock_position) return;
 
@@ -375,8 +379,15 @@ class PictPanelMain extends libPictView
 			 * END of browser event code block
 			 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
-		// .addEventListener("dblclick",
-		// 
+		// Double-click on drag handle expands panel from tab mode
+		tmpPanelDragElement.addEventListener('dblclick',
+			function (pEvent)
+			{
+				if (__View.uiState.Behaviors.tab_mode)
+				{
+					__View.toggleUIBehavior('tab_mode');
+				}
+			});
 
 		let tmpUIBehaviorIcons = this.pict.ContentAssignment.getElement('#Pict-Panel .pp_sz_con div');
 		for (let i = 0; i < tmpUIBehaviorIcons.length; i++)

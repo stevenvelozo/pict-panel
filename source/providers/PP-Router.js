@@ -30,6 +30,20 @@ class PictPanelRouter extends libPictProvider
 			this.activeView = pViewHash;
 			this.pict.views[pViewHash].render();
 
+			// Update the active nav highlight
+			let tmpNavItems = document.querySelectorAll('#Pict-Panel .pp_nav span[data-nav]');
+			for (let i = 0; i < tmpNavItems.length; i++)
+			{
+				if (tmpNavItems[i].getAttribute('data-nav') === pViewHash)
+				{
+					tmpNavItems[i].classList.add('pp_nav_active');
+				}
+				else
+				{
+					tmpNavItems[i].classList.remove('pp_nav_active');
+				}
+			}
+
 			// Persist the active view selection
 			if (this.pict.providers['PP-ConfigStorage'] && this.pict.views['PP-Main'])
 			{
