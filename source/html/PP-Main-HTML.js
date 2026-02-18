@@ -56,7 +56,10 @@ module.exports = { HTML:/*html*/`
 							</span>
 						</div>
 						<div class="unchecked" data-i-toggle="resize_handle">
-							<span class="off hover_on on hover_off">
+							<span class="off hover_on">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M304 96l112 112M421.8 421.77L90.2 90.23"/></svg>
+							</span>
+							<span class="on hover_off">
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M176 112l80-80 80 80M255.98 32l.02 448M176 400l80 80 80-80M400 176l80 80-80 80M112 176l-80 80 80 80M32 256h448"/></svg>
 							</span>
 						</div>

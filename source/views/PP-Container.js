@@ -21,7 +21,8 @@ const _ViewConfiguration = (
 				RenderableHash: "Pict-Panel-Container",
 				TemplateHash: "Pict-Panel-Container",
 				ContentDestinationAddress: "body",
-				RenderMethod: "append_once"
+				RenderMethod: "append_once",
+				TestAddress: "#Pict-Panel-Container"
 			}]
 	});
 

@@ -1,6 +1,6 @@
 {
     "name": "pict-panel",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Pict Control Panel",
     "main": "source/Pict-Panel.js",
     "scripts": {
@@ -13,15 +13,15 @@
     "author": "steven <steven@velozo.com>",
     "license": "MIT",
     "devDependencies": {
-        "pict": "^1.0.234",
-        "pict-section-form": "^1.0.67",
-        "quackage": "^1.0.38"
+        "pict": "^1.0.348",
+        "pict-section-form": "^1.0.189",
+        "quackage": "^1.0.51"
     },
     "dependencies": {
-        "fable-serviceproviderbase": "^3.0.15",
-        "pict-provider": "^1.0.3",
-        "pict-template": "^1.0.10",
-        "pict-view": "^1.0.59"
+        "fable-serviceproviderbase": "^3.0.18",
+        "pict-provider": "^1.0.10",
+        "pict-template": "^1.0.14",
+        "pict-view": "^1.0.66"
     },
     "mocha": {
         "diff": true,

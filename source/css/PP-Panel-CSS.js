@@ -16,11 +16,54 @@ module.exports = { CSS: /*CSS*/`
 	width: 300px;
 	
 	overflow: auto;
+	resize: both;
 
 	color: var(--win-fg);
 	background: var(--win-bg);
 	border: 3px double var(--win-border);
 	border-radius: 5px;
+}
+
+#Pict-Panel.pp_no_resize {
+	resize: none;
+}
+
+/* Tab mode: collapse to just the logo */
+#Pict-Panel.pp_tab_mode {
+	top: -3px;
+	right: 60px;
+	left: auto;
+	width: auto;
+	min-width: 0;
+	max-width: none;
+	height: auto;
+	min-height: 0;
+	max-height: none;
+	resize: none;
+	overflow: visible;
+	padding: 0;
+}
+
+#Pict-Panel.pp_tab_mode .pp_hd {
+	display: block;
+	padding: 2px;
+}
+
+#Pict-Panel.pp_tab_mode .pp_hd_pict,
+#Pict-Panel.pp_tab_mode .pp_hd_control,
+#Pict-Panel.pp_tab_mode .pp_nav,
+#Pict-Panel.pp_tab_mode .pp_content {
+	display: none !important;
+}
+
+#Pict-Panel.pp_tab_mode .pp_hd_logo {
+	cursor: pointer;
+}
+
+#Pict-Panel.pp_tab_mode .pp_hd_logo svg {
+	width: 36px;
+	height: 36px;
+	display: block;
 }
 
 #Pict-Panel-Drag {
@@ -67,13 +110,18 @@ module.exports = { CSS: /*CSS*/`
 	text-align: right;
 }
 
-.pp_sz_con div {
+.pp_sz_con > div {
 	background-color: var(--hd-sz-con);
 	border-color: var(--hd-sz-con-border);
 	border-style: dotted;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
 }
 
-.pp_sz_con div:hover {
+.pp_sz_con > div:hover {
 	background-color: var(--hd-sz-con-hover);
 	border-color: var(--hd-sz-con-border-hover);
 	border-style: solid;
@@ -83,34 +131,54 @@ module.exports = { CSS: /*CSS*/`
 {
 	width: 16px;
 	height: 16px;
-}
-.pp_sz_icon
-{
-	width: 100%;
-	height: auto;
-	object-fit: fill;
 	color: var(--pal-pri);
-}
-.pp_sz_icon:hover
-{
-	color: var(--pal-pri-bri);
+	fill: var(--pal-pri);
 }
 
-.pp_sz_con .checked .off
+.pp_sz_con > div:hover svg
 {
-	display: none;
+	color: var(--pal-acc-bri);
+	fill: var(--pal-acc-bri);
 }
-.pp_sz_con .unchecked .on
+
+/* Toggle icon visibility: unchecked shows .off, checked shows .on */
+.pp_sz_con .checked .off,
+.pp_sz_con .checked .hover_on
 {
-	display: none;
+	display: none !important;
 }
-.pp_sz_con .checked .on
+.pp_sz_con .unchecked .on,
+.pp_sz_con .unchecked .hover_off
 {
-	display:block;
+	display: none !important;
 }
-.pp_sz_con .unchecked .off
+.pp_sz_con .checked .on,
+.pp_sz_con .checked .hover_off
 {
-	display:block;
+	display: inline-flex !important;
+}
+.pp_sz_con .unchecked .off,
+.pp_sz_con .unchecked .hover_on
+{
+	display: inline-flex !important;
+}
+
+/* Navigation */
+.pp_nav {
+	padding: 2px 8px;
+	border-bottom: 1px solid var(--pal-acc);
+	font-family: Courier, monospace;
+	font-size: 0.8rem;
+}
+
+.pp_nav a {
+	color: var(--pal-acc);
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.pp_nav a:hover {
+	color: var(--pal-acc-bri);
 }
 
 `};

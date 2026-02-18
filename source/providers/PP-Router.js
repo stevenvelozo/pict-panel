@@ -27,7 +27,14 @@ class PictPanelRouter extends libPictProvider
 
 		if (pViewHash in this.pict.views)
 		{
+			this.activeView = pViewHash;
 			this.pict.views[pViewHash].render();
+
+			// Persist the active view selection
+			if (this.pict.providers['PP-ConfigStorage'] && this.pict.views['PP-Main'])
+			{
+				this.pict.providers['PP-ConfigStorage'].save(this.pict.views['PP-Main'].uiState);
+			}
 		}
 	}
 }

@@ -14,6 +14,9 @@ const _DEFAULT_PROVIDER_CONFIGURATION =
 		+ require('../css/PP-Panel-CSS.js').CSS 
 		+ require('../css/PP-Logo-CSS.js').CSS
 		+ require('../css/PP-AppDataBrowser-CSS.js').CSS
+		+ require('../css/PP-TemplateBrowser-CSS.js').CSS
+		+ require('../css/PP-ServiceBrowser-CSS.js').CSS
+		+ require('../css/PP-TemplateOverrides-CSS.js').CSS
 }
 
 class PictPanelCSSHotloader extends libPictProvider
