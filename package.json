@@ -1,6 +1,6 @@
 {
     "name": "pict-panel",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Pict Control Panel",
     "main": "source/Pict-Panel.js",
     "scripts": {
