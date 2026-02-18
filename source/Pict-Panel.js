@@ -86,10 +86,10 @@ class PictPanel extends libPictProvider
  * When hotloaded (e.g. via fetch+eval or a script tag), this detects the global
  * _Pict instance, registers PictPanel as a provider, and shows the panel.
  *
- * Simple console one-liner to inject:
- *   fetch('./pict-panel.js').then(r=>r.text()).then(eval).then(()=>PictPanel.inject())
+ * Simple console one-liner to inject from CDN:
+ *   fetch('https://cdn.jsdelivr.net/npm/pict-panel/dist/pict-panel.js').then(r=>r.text()).then(eval).then(()=>PictPanel.inject())
  *
- * Or from any URL:
+ * Or from a local dev server:
  *   fetch('http://localhost:9998/pict-panel.js').then(r=>r.text()).then(eval).then(()=>PictPanel.inject())
  */
 PictPanel.inject = function(pPictInstance)

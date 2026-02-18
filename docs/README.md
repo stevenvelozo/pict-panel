@@ -7,7 +7,7 @@ Pict Panel is a hotloadable debugging tool that injects into any running Pict ap
 Open your browser console and paste:
 
 ```javascript
-fetch('./pict-panel.js').then(r=>r.text()).then(eval).then(()=>PictPanel.inject())
+fetch('https://cdn.jsdelivr.net/npm/pict-panel/dist/pict-panel.js').then(r=>r.text()).then(eval).then(()=>PictPanel.inject())
 ```
 
 The panel appears as a draggable, resizable window in the top-right corner. Use the navigation bar to switch between views. See [Hotloading](hotloading.md) for details on how this works and how to serve the panel from your own app.

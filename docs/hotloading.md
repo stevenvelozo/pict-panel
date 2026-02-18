@@ -3,7 +3,7 @@
 Pict Panel is designed to be injected into any running Pict application without modifying the app's source code. Open your browser console and paste:
 
 ```javascript
-fetch('./pict-panel.js').then(r=>r.text()).then(eval).then(()=>PictPanel.inject())
+fetch('https://cdn.jsdelivr.net/npm/pict-panel/dist/pict-panel.js').then(r=>r.text()).then(eval).then(()=>PictPanel.inject())
 ```
 
 This fetches the panel bundle, evaluates it in the page context, and injects it into the running Pict instance.
@@ -12,7 +12,7 @@ This fetches the panel bundle, evaluates it in the page context, and injects it 
 
 The one-liner does three things in sequence:
 
-1. **`fetch('./pict-panel.js')`** -- Downloads the browserified panel bundle as text. This can be a relative path (if your app serves the file) or an absolute URL to any server hosting the bundle.
+1. **`fetch('https://cdn.jsdelivr.net/npm/pict-panel/dist/pict-panel.js')`** -- Downloads the browserified panel bundle as text from the jsdelivr CDN. This can also be a relative path (if your app serves the file) or any other URL hosting the bundle.
 
 2. **`.then(eval)`** -- Evaluates the script in the current page context. This defines the `PictPanel` class as a global and attaches the static `PictPanel.inject()` method. No side effects occur at this stage -- the panel is defined but not yet active.
 

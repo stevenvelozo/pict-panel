@@ -11,7 +11,7 @@ A developer panel for inspecting and debugging Pict applications at runtime. Inj
 Open your browser console and paste:
 
 ```javascript
-fetch('./pict-panel.js').then(r=>r.text()).then(eval).then(()=>PictPanel.inject())
+fetch('https://cdn.jsdelivr.net/npm/pict-panel/dist/pict-panel.js').then(r=>r.text()).then(eval).then(()=>PictPanel.inject())
 ```
 
 ## Features
@@ -36,7 +36,7 @@ npm install pict-panel
 Inject the panel into any page with a running Pict instance:
 
 ```javascript
-fetch('./pict-panel.js').then(r=>r.text()).then(eval).then(()=>PictPanel.inject())
+fetch('https://cdn.jsdelivr.net/npm/pict-panel/dist/pict-panel.js').then(r=>r.text()).then(eval).then(()=>PictPanel.inject())
 ```
 
 Or from a remote URL:
