@@ -1,6 +1,6 @@
 {
     "name": "pict-panel",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "Pict Control Panel",
     "main": "source/Pict-Panel.js",
     "scripts": {
@@ -18,10 +18,10 @@
         "quackage": "^1.0.58"
     },
     "dependencies": {
-        "fable-serviceproviderbase": "^3.0.18",
-        "pict-provider": "^1.0.10",
-        "pict-template": "^1.0.14",
-        "pict-view": "^1.0.66"
+        "fable-serviceproviderbase": "^3.0.19",
+        "pict-provider": "^1.0.12",
+        "pict-template": "^1.0.15",
+        "pict-view": "^1.0.67"
     },
     "mocha": {
         "diff": true,
