@@ -1,4 +1,4 @@
-# Pict Panel <small>1</small>
+# Pict Panel
 
 > A developer panel for inspecting and debugging Pict applications at runtime
 
