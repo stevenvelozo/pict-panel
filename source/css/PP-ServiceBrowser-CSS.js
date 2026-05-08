@@ -41,7 +41,7 @@ module.exports = { CSS: /*CSS*/`
 .pp_sb_entry_info {
 	font-family: Courier, monospace;
 	font-size: 0.65rem;
-	color: #999;
+	color: var(--theme-color-text-muted, #999);
 	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap;

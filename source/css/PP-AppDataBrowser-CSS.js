@@ -63,7 +63,7 @@ module.exports = { CSS: /*CSS*/`
 	padding: 4px;
 	border: 1px solid var(--pal-pri);
 	border-radius: 3px;
-	background: #fff;
+	background: var(--theme-color-background-panel, #fff);
 	color: var(--pal-pri);
 	resize: vertical;
 	box-sizing: border-box;
@@ -157,12 +157,12 @@ module.exports = { CSS: /*CSS*/`
 .pp_adb_type {
 	font-size: 0.7rem;
 	font-style: italic;
-	color: #888;
+	color: var(--theme-color-text-muted, #888);
 }
 
 .pp_adb_count {
 	font-size: 0.7rem;
-	color: #888;
+	color: var(--theme-color-text-muted, #888);
 }
 
 /* Leaf value styling by type */
@@ -176,12 +176,12 @@ module.exports = { CSS: /*CSS*/`
 
 .pp_adb_value_string::before {
 	content: '"';
-	color: #888;
+	color: var(--theme-color-text-muted, #888);
 }
 
 .pp_adb_value_string::after {
 	content: '"';
-	color: #888;
+	color: var(--theme-color-text-muted, #888);
 }
 
 .pp_adb_value_number {
@@ -195,7 +195,7 @@ module.exports = { CSS: /*CSS*/`
 
 .pp_adb_value_null,
 .pp_adb_value_undefined {
-	color: #888;
+	color: var(--theme-color-text-muted, #888);
 	font-style: italic;
 }
 

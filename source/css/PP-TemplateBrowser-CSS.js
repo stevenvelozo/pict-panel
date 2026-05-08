@@ -28,7 +28,7 @@ module.exports = { CSS: /*CSS*/`
 }
 
 .pp_tb_filter_input::placeholder {
-	color: #999;
+	color: var(--theme-color-text-muted, #999);
 }
 
 /* Editor area */
@@ -84,7 +84,7 @@ module.exports = { CSS: /*CSS*/`
 .pp_tb_entry_source {
 	font-family: Courier, monospace;
 	font-size: 0.65rem;
-	color: #999;
+	color: var(--theme-color-text-muted, #999);
 	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap;
@@ -107,7 +107,7 @@ module.exports = { CSS: /*CSS*/`
 	padding: 8px;
 	font-family: Courier, monospace;
 	font-size: 0.8rem;
-	color: #999;
+	color: var(--theme-color-text-muted, #999);
 	font-style: italic;
 }
 
