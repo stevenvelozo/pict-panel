@@ -1,0 +1,18 @@
+{
+	"Hash": "pict-panel",
+	"Name": "Pict Panel",
+	"Tagline": "Hot-loadable control panel component for browser applications",
+	"Palette": "mix",
+	"Icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" width=\"96\" height=\"96\">\n\t\t<defs>\n\t\t\t<clipPath id=\"frame-pict-panel-filled-light\">\n\t\t\t\t<path d=\"M 48.00 2.00 L 87.84 25.00 L 87.84 71.00 L 48.00 94.00 L 8.16 71.00 L 8.16 25.00 Z\"/>\n\t\t\t</clipPath>\n\t\t</defs>\n\t\t<path d=\"M 48.00 2.00 L 87.84 25.00 L 87.84 71.00 L 48.00 94.00 L 8.16 71.00 L 8.16 25.00 Z\" fill=\"#d815e9\"/>\n\t\t<g clip-path=\"url(#frame-pict-panel-filled-light)\"><path d=\"M 13.31 57.64 A 36 36 0 0 1 82.69 38.36 Z\" fill=\"rgba(255,255,255,0.18)\" opacity=\"0.95\"/>\n\t\t\t\t\t<path d=\"M 13.31 57.64 A 36 36 0 0 0 82.69 38.36 Z\" fill=\"#54b5f3\" opacity=\"0.95\"/></g>\n\t\t<text x=\"48\" y=\"50\" text-anchor=\"middle\" dominant-baseline=\"central\"\n\t\t\tfont-family=\"-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif\"\n\t\t\tfont-size=\"38\" font-weight=\"600\"\n\t\t\tfill=\"#ffffff\" letter-spacing=\"-1\">PP</text>\n\t</svg>",
+	"IconType": "svg",
+	"Favicon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" width=\"96\" height=\"96\">\n\t\t<defs>\n\t\t\t<clipPath id=\"fav-pict-panel-light\">\n\t\t\t\t<path d=\"M 48.00 2.00 L 87.84 25.00 L 87.84 71.00 L 48.00 94.00 L 8.16 71.00 L 8.16 25.00 Z\"/>\n\t\t\t</clipPath>\n\t\t</defs>\n\t\t<path d=\"M 48.00 2.00 L 87.84 25.00 L 87.84 71.00 L 48.00 94.00 L 8.16 71.00 L 8.16 25.00 Z\" fill=\"#d815e9\"/>\n\t\t<g clip-path=\"url(#fav-pict-panel-light)\"><circle cx=\"48\" cy=\"48\" r=\"40\" fill=\"rgba(255,255,255,0.22)\"/></g>\n\t\t<text x=\"48\" y=\"50\" text-anchor=\"middle\" dominant-baseline=\"central\"\n\t\t\tfont-family=\"-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif\"\n\t\t\tfont-size=\"60\" font-weight=\"800\"\n\t\t\tfill=\"#ffffff\" letter-spacing=\"-1\">P</text>\n\t</svg>",
+	"FaviconDark": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 96\" width=\"96\" height=\"96\">\n\t\t<defs>\n\t\t\t<clipPath id=\"fav-pict-panel-dark\">\n\t\t\t\t<path d=\"M 48.00 2.00 L 87.84 25.00 L 87.84 71.00 L 48.00 94.00 L 8.16 71.00 L 8.16 25.00 Z\"/>\n\t\t\t</clipPath>\n\t\t</defs>\n\t\t<path d=\"M 48.00 2.00 L 87.84 25.00 L 87.84 71.00 L 48.00 94.00 L 8.16 71.00 L 8.16 25.00 Z\" fill=\"#e26ded\"/>\n\t\t<g clip-path=\"url(#fav-pict-panel-dark)\"><circle cx=\"48\" cy=\"48\" r=\"40\" fill=\"rgba(255,255,255,0.22)\"/></g>\n\t\t<text x=\"48\" y=\"50\" text-anchor=\"middle\" dominant-baseline=\"central\"\n\t\t\tfont-family=\"-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif\"\n\t\t\tfont-size=\"60\" font-weight=\"800\"\n\t\t\tfill=\"#101418\" letter-spacing=\"-1\">P</text>\n\t</svg>",
+	"Colors": {
+		"Primary": "#d815e9",
+		"Secondary": "#54b5f3",
+		"PrimaryLight": "#d815e9",
+		"PrimaryDark": "#e26ded",
+		"SecondaryLight": "#54b5f3",
+		"SecondaryDark": "#a3d5f5"
+	}
+}
